@@ -1,0 +1,13 @@
+create table saved_designs (
+  id text primary key,
+  title text,
+  source text,
+  link text,
+  image text,
+  penjelasan text,
+  kategori text,
+  tingkat text,
+  teori text,
+  date text,
+  saved_at timestamp default now()
+);
