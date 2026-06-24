@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tersimpan — DesignRef</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">◈ DesignRef</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Tren Hari Ini</a>
+        <a href="saved.html" class="nav-link active">♥ Tersimpan <span id="saved-count" class="badge hidden">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-hero">
+        <div>
+          <h1 class="page-title">Koleksi Tersimpan</h1>
+          <p class="update-info">Desain yang kamu simpan dari semua waktu</p>
+        </div>
+      </div>
+
+      <div id="saved-grid" class="trends-grid">
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Memuat koleksi tersimpan...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Update otomatis setiap hari jam 09:00 WIB</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script>
+    const SUPABASE_URL = 'GANTI_SUPABASE_URL';
+    const SUPABASE_KEY = 'GANTI_SUPABASE_ANON_KEY';
+    const PAGE = 'saved';
+  </script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
