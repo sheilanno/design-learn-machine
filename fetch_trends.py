@@ -4,10 +4,11 @@ import os
 import re
 import time
 from datetime import datetime
-from google import genai
+import google.generativeai as genai
 from supabase import create_client
 
-client = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
+genai.configure(api_key=os.environ['GEMINI_API_KEY'])
+model = genai.GenerativeModel('gemini-1.5-flash')
 db = create_client(os.environ['SUPABASE_URL'], os.environ['SUPABASE_KEY'])
 
 FEEDS = [
@@ -15,6 +16,8 @@ FEEDS = [
     {'source': 'Creative Boom',  'url': 'https://www.creativeboom.com/feed/'},
     {'source': 'Design Week',    'url': 'https://www.designweek.co.uk/feed/'},
     {'source': 'Brand New',      'url': 'https://www.underconsideration.com/brandnew/feed/'},
+    {'source': 'Dezeen',         'url': 'https://www.dezeen.com/feed/'},
+    {'source': 'Eye on Design',  'url': 'https://eyeondesign.aiga.org/feed/'},
 ]
 
 def get_preferences():
@@ -46,10 +49,13 @@ def fetch_articles():
             parsed = feedparser.parse(feed['url'])
             count = 0
             for entry in parsed.entries:
-                if count >= 3:
+                if count >= 2:
                     break
+                title = entry.get('title', '').strip()
+                if not title:
+                    continue
                 articles.append({
-                    'title': entry.get('title', '').strip(),
+                    'title': title,
                     'link': entry.get('link', ''),
                     'summary': re.sub('<[^>]+>', '', entry.get('summary', ''))[:400],
                     'source': feed['source'],
@@ -82,10 +88,7 @@ Balas HANYA dengan JSON ini, tanpa teks lain:
   "teori": "nama teori singkat"
 }}"""
 
-    response = client.models.generate_content(
-        model='gemini-1.5-flash',
-        contents=prompt
-    )
+    response = model.generate_content(prompt)
     text = re.sub(r'```(?:json)?\n?', '', response.text).strip().rstrip('`')
     return json.loads(text)
 
@@ -115,10 +118,9 @@ def main():
                 'date': datetime.now().strftime('%Y-%m-%d'),
             })
             print(f"  ✓ {article['title'][:60]}")
-            time.sleep(4)
         except Exception as e:
             print(f"  ✗ {article['title'][:60]} — {e}")
-            time.sleep(4)
+        time.sleep(5)
 
     if preferences:
         trends.sort(key=lambda t: 0 if t['kategori'] in preferences else 1)
