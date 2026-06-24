@@ -2,12 +2,12 @@ import feedparser
 import json
 import os
 import re
+import time
 from datetime import datetime
-import google.generativeai as genai
+from google import genai
 from supabase import create_client
 
-genai.configure(api_key=os.environ['GEMINI_API_KEY'])
-model = genai.GenerativeModel('gemini-2.0-flash')
+client = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
 db = create_client(os.environ['SUPABASE_URL'], os.environ['SUPABASE_KEY'])
 
 FEEDS = [
@@ -42,19 +42,27 @@ def extract_image(entry):
 def fetch_articles():
     articles = []
     for feed in FEEDS:
-        parsed = feedparser.parse(feed['url'])
-        for entry in parsed.entries[:3]:
-            articles.append({
-                'title': entry.get('title', '').strip(),
-                'link': entry.get('link', ''),
-                'summary': re.sub('<[^>]+>', '', entry.get('summary', ''))[:400],
-                'source': feed['source'],
-                'image': extract_image(entry),
-            })
+        try:
+            parsed = feedparser.parse(feed['url'])
+            count = 0
+            for entry in parsed.entries:
+                if count >= 3:
+                    break
+                articles.append({
+                    'title': entry.get('title', '').strip(),
+                    'link': entry.get('link', ''),
+                    'summary': re.sub('<[^>]+>', '', entry.get('summary', ''))[:400],
+                    'source': feed['source'],
+                    'image': extract_image(entry),
+                })
+                count += 1
+            print(f"  RSS {feed['source']}: {count} artikel")
+        except Exception as e:
+            print(f"  RSS {feed['source']} gagal: {e}")
     return articles[:10]
 
 def analyze(article, preferences):
-    pref_hint = f"Pengguna suka: {', '.join(preferences)}. Tampilkan konten ini lebih awal jika relevan." if preferences else ""
+    pref_hint = f"Pengguna suka: {', '.join(preferences)}." if preferences else ""
     prompt = f"""Kamu adalah guru desain grafis untuk pemula Indonesia. {pref_hint}
 
 Artikel dari {article['source']}:
@@ -74,18 +82,21 @@ Balas HANYA dengan JSON ini, tanpa teks lain:
   "teori": "nama teori singkat"
 }}"""
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(
+        model='gemini-1.5-flash',
+        contents=prompt
+    )
     text = re.sub(r'```(?:json)?\n?', '', response.text).strip().rstrip('`')
     return json.loads(text)
 
 def main():
     print("Mengambil preferensi pengguna...")
     preferences = get_preferences()
-    print(f"Preferensi: {preferences or 'belum ada (baru pertama kali)'}")
+    print(f"Preferensi: {preferences or 'belum ada'}")
 
-    print("Mengambil artikel dari sumber desain...")
+    print("\nMengambil artikel dari sumber desain...")
     articles = fetch_articles()
-    print(f"Ditemukan {len(articles)} artikel")
+    print(f"Total: {len(articles)} artikel\n")
 
     trends = []
     for i, article in enumerate(articles):
@@ -104,8 +115,10 @@ def main():
                 'date': datetime.now().strftime('%Y-%m-%d'),
             })
             print(f"  ✓ {article['title'][:60]}")
+            time.sleep(4)
         except Exception as e:
             print(f"  ✗ {article['title'][:60]} — {e}")
+            time.sleep(4)
 
     if preferences:
         trends.sort(key=lambda t: 0 if t['kategori'] in preferences else 1)
@@ -119,7 +132,7 @@ def main():
             'trends': trends
         }, f, ensure_ascii=False, indent=2)
 
-    print(f"\nSelesai! {len(trends)} tren tersimpan di data/trends.json")
+    print(f"\nSelesai! {len(trends)} tren tersimpan.")
 
 if __name__ == '__main__':
     main()
