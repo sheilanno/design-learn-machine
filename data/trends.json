@@ -1,0 +1,19 @@
+{
+  "date": "2025-01-01",
+  "updated": "Menunggu update pertama jam 09:00 WIB",
+  "preferences": [],
+  "trends": [
+    {
+      "id": "placeholder-0",
+      "title": "Website sedang disiapkan!",
+      "source": "DesignRef",
+      "link": "#",
+      "image": "",
+      "penjelasan": "Selamat datang di DesignRef! Tren desain pertama akan muncul otomatis besok jam 09:00 WIB. Kamu juga bisa memicunya manual lewat GitHub Actions sekarang jika tidak mau menunggu.",
+      "kategori": "branding",
+      "tingkat": "mudah",
+      "teori": "Segera hadir",
+      "date": "2025-01-01"
+    }
+  ]
+}
