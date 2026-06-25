@@ -4,11 +4,10 @@ import os
 import re
 import time
 from datetime import datetime
-import google.generativeai as genai
+from groq import Groq
 from supabase import create_client
 
-genai.configure(api_key=os.environ['GEMINI_API_KEY'])
-model = genai.GenerativeModel('gemini-1.5-flash')
+client = Groq(api_key=os.environ['GROQ_API_KEY'])
 db = create_client(os.environ['SUPABASE_URL'], os.environ['SUPABASE_KEY'])
 
 FEEDS = [
@@ -88,8 +87,12 @@ Balas HANYA dengan JSON ini, tanpa teks lain:
   "teori": "nama teori singkat"
 }}"""
 
-    response = model.generate_content(prompt)
-    text = re.sub(r'```(?:json)?\n?', '', response.text).strip().rstrip('`')
+    response = client.chat.completions.create(
+        model="llama-3.1-8b-instant",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7,
+    )
+    text = re.sub(r'```(?:json)?\n?', '', response.choices[0].message.content).strip().rstrip('`')
     return json.loads(text)
 
 def main():
@@ -120,7 +123,7 @@ def main():
             print(f"  ✓ {article['title'][:60]}")
         except Exception as e:
             print(f"  ✗ {article['title'][:60]} — {e}")
-        time.sleep(5)
+        time.sleep(2)
 
     if preferences:
         trends.sort(key=lambda t: 0 if t['kategori'] in preferences else 1)
