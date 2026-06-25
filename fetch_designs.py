@@ -495,8 +495,13 @@ def ai_gemini(prompt, img_b64):
         "generationConfig": {"temperature": 0.7},
     }
     r = requests.post(url, json=body, timeout=40)
-    r.raise_for_status()
-    txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    if r.status_code != 200:
+        # jangan pakai raise_for_status (URL-nya bawa key); pakai body errornya saja
+        raise RuntimeError(f"HTTP {r.status_code}: {r.text[:160]}")
+    data = r.json()
+    if not data.get("candidates"):
+        raise RuntimeError(f"no candidates: {str(data)[:160]}")
+    txt = data["candidates"][0]["content"]["parts"][0]["text"]
     return parse_json(txt)
 
 
@@ -507,7 +512,7 @@ def ai_groq(prompt, img_b64):
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {GROQ_KEY}"},
         json={
-            "model": "llama-3.2-11b-vision-preview",
+            "model": "meta-llama/llama-4-scout-17b-16e-instruct",
             "temperature": 0.7,
             "messages": [{"role": "user", "content": [
                 {"type": "text", "text": prompt},
@@ -516,7 +521,8 @@ def ai_groq(prompt, img_b64):
         },
         timeout=40,
     )
-    r.raise_for_status()
+    if r.status_code != 200:
+        raise RuntimeError(f"HTTP {r.status_code}: {r.text[:160]}")
     return parse_json(r.json()["choices"][0]["message"]["content"])
 
 
@@ -588,7 +594,8 @@ def analyze(item, img, colors, cat, info):
             res["_ai"] = name
             return res
         except Exception as e:
-            print(f"    {name} gagal: {str(e)[:80]}")
+            print(f"    {name} GAGAL: {str(e)[:200]}")
+    print("    -> pakai TEMPLATE (analisa generik, bukan per-gambar)")
     res = template_analysis(item, colors, cat, info)
     res["_ai"] = "template"
     return res
