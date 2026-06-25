@@ -689,7 +689,11 @@ def main():
                         got += 1
                         time.sleep(1)
 
-    archive["items"] = new_items + archive["items"]
+    # Sistem 24 jam: feed TREN cuma menyimpan drop terbaru; karya kemarin otomatis
+    # hilang. Yang sudah di-SIMPAN tetap aman & permanen di halaman TERSIMPAN (Supabase).
+    # Pengaman: kalau run gagal total (0 item baru), jangan kosongkan feed yang lama.
+    if new_items:
+        archive["items"] = new_items
     archive["updated"] = datetime.now(WIB).strftime("%d %B %Y, %H:%M WIB")
     archive["last_count"] = len(new_items)
 
