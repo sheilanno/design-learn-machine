@@ -23,17 +23,19 @@ jobs:
       - name: Install dependensi
         run: pip install -r requirements.txt
 
-      - name: Jalankan script pengambil tren
+      - name: Jalankan script pengambil desain
         env:
+          UNSPLASH_KEY: ${{ secrets.UNSPLASH_KEY }}
+          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python fetch_trends.py
+        run: python fetch_designs.py
 
       - name: Simpan hasil ke GitHub
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/trends.json
-          git diff --staged --quiet || git commit -m "Update tren desain $(date +'%Y-%m-%d')"
+          git add data/designs.json
+          git diff --staged --quiet || git commit -m "Update desain $(date +'%Y-%m-%d')"
           git push
