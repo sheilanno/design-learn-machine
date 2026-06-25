@@ -1,174 +1,176 @@
-const { createClient } = supabase;
-const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-let allTrends = [];
+let allItems = [];
 let savedIds = new Set();
 let activeFilter = 'semua';
-
-const CAT_ICONS = {
-  branding: '◈', tipografi: 'Aa', ilustrasi: '✦',
-  packaging: '⬡', poster: '▣', color: '◉', 'visual identity': '◎'
-};
 
 async function init() {
   await loadSavedIds();
   if (PAGE === 'index') {
-    await loadTrends();
+    await loadArchive();
     setupFilters();
   } else {
     await loadSavedPage();
   }
-  updateSavedBadge();
+  updateBadge();
 }
 
 async function loadSavedIds() {
-  const { data } = await sb.from('saved_designs').select('id');
-  savedIds = new Set((data || []).map(r => r.id));
-}
-
-async function loadTrends() {
   try {
-    const res = await fetch('data/trends.json?t=' + Date.now());
+    const { data } = await sb.from('saved_designs').select('id');
+    savedIds = new Set((data || []).map(r => r.id));
+  } catch (e) { savedIds = new Set(); }
+}
+
+async function loadArchive() {
+  try {
+    const res = await fetch('data/designs.json?t=' + Date.now());
     const json = await res.json();
-    allTrends = json.trends || [];
-
-    document.getElementById('update-info').textContent =
-      json.updated ? `Diperbarui: ${json.updated}` : `Data: ${json.date}`;
-
-    if (json.preferences && json.preferences.length > 0) {
-      const section = document.getElementById('pref-section');
-      const tags = document.getElementById('pref-tags');
-      section.classList.remove('hidden');
-      tags.innerHTML = json.preferences
-        .map(p => `<span class="pref-tag">${CAT_ICONS[p] || '◈'} ${p}</span>`)
-        .join('');
-    }
-
-    renderTrends(allTrends);
+    allItems = json.items || [];
+    const info = document.getElementById('hero-label');
+    if (info) info.textContent =
+      `◖ ${allItems.length} KARYA DI ARSIP · UPDATE ${json.updated || '-'} ◗`;
+    render();
   } catch (e) {
-    document.getElementById('trends-grid').innerHTML =
-      `<div class="empty-state"><h3>Gagal memuat data</h3><p>Coba refresh halaman.</p></div>`;
+    document.getElementById('grid').innerHTML =
+      `<div class="state"><h3>Gagal memuat data</h3><p>Coba refresh halaman.</p></div>`;
   }
 }
 
-function renderTrends(trends) {
-  const grid = document.getElementById('trends-grid');
-  const filtered = activeFilter === 'semua'
-    ? trends
-    : trends.filter(t => t.kategori === activeFilter);
-
-  if (filtered.length === 0) {
-    grid.innerHTML = `<div class="empty-state"><h3>Tidak ada tren</h3><p>Coba filter lain.</p></div>`;
-    return;
-  }
-
-  grid.innerHTML = filtered.map(t => cardHTML(t)).join('');
-  grid.querySelectorAll('.save-btn').forEach(btn => {
-    btn.addEventListener('click', () => toggleSave(btn.dataset.id));
-  });
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 }
 
-function cardHTML(t) {
-  const catClass = 'cat-' + (t.kategori === 'visual identity' ? 'visual' : t.kategori);
-  const tingkatClass = 'tingkat-' + t.tingkat;
-  const isSaved = savedIds.has(t.id);
-  const imgPart = t.image
-    ? `<img class="card-image" src="${t.image}" alt="${t.title}" loading="lazy" onerror="this.outerHTML='<div class=\\'card-image-placeholder\\'>${CAT_ICONS[t.kategori] || '◈'}</div>'">`
-    : `<div class="card-image-placeholder">${CAT_ICONS[t.kategori] || '◈'}</div>`;
+function paletteHTML(pal) {
+  if (!pal || !pal.length) return '';
+  return `<div class="palette">${pal.slice(0, 4).map(c =>
+    `<span style="background:${esc(c)}"></span>`).join('')}</div>`;
+}
 
+function cardHTML(it) {
+  const img = it.image
+    ? `<img class="card-img" src="${esc(it.image)}" alt="${esc(it.title)}" loading="lazy"
+         onerror="this.outerHTML='<div class=\\'card-img-ph\\'>${esc((it.title||'?')[0])}</div>'">`
+    : `<div class="card-img-ph">${esc((it.title || '?')[0])}</div>`;
+  const bd = (it.breakdown || []).map(b => {
+    const cls = 'bd-' + String(b.label || '').toUpperCase().replace(/[^A-Z]/g, '');
+    return `<div class="bd-row"><span class="bd-label ${cls}">${esc(b.label)}</span><span class="bd-text">${esc(b.text)}</span></div>`;
+  }).join('');
+  const saved = savedIds.has(it.id);
+  const isNew = it.date === (allItems[0] && allItems[0].date);
   return `
-<div class="card" data-id="${t.id}" data-kategori="${t.kategori}">
-  ${imgPart}
+<div class="card" data-id="${esc(it.id)}" data-kat="${esc(it.kategori)}">
+  ${isNew ? `<div class="sticker">NEW<br>★</div>` : ''}
+  <div class="card-img-wrap">
+    ${img}
+    <span class="src-badge">◦ ${esc((it.source || '').toUpperCase())}</span>
+    ${paletteHTML(it.palette)}
+  </div>
   <div class="card-body">
-    <div class="card-meta">
-      <span class="cat-badge ${catClass}">${t.kategori}</span>
-      <span class="tingkat-badge ${tingkatClass}">${t.tingkat}</span>
+    <div class="pills">
+      <span class="pill pill-cat">${esc(it.kategori)}</span>
+      <span class="pill pill-t ${esc(it.tingkat)}">${esc(it.tingkat)}</span>
     </div>
-    <h3 class="card-title">${t.title}</h3>
-    <div class="teori-tag">${t.teori}</div>
-    <p class="card-penjelasan">${t.penjelasan}</p>
+    <div class="card-title">${esc(it.title)}</div>
+    ${it.teori && it.teori !== '-' ? `<div class="teori">${esc(it.teori)}</div>` : ''}
+    <div class="breakdown">${bd}</div>
+    ${it.pelajaran ? `<div class="pelajaran">${esc(it.pelajaran)}</div>` : ''}
     <div class="card-actions">
-      <a href="${t.link}" target="_blank" rel="noopener" class="source-link">${t.source}</a>
-      <button class="save-btn ${isSaved ? 'saved' : ''}" data-id="${t.id}">
-        ${isSaved ? '♥ Tersimpan' : '♡ Simpan'}
-      </button>
+      <a class="src-link" href="${esc(it.link)}" target="_blank" rel="noopener">sumber</a>
+      <button class="save-btn ${saved ? 'saved' : ''}" data-id="${esc(it.id)}">
+        ${saved ? '♥ TERSIMPAN' : '♡ SIMPAN'}</button>
     </div>
   </div>
 </div>`;
 }
 
-async function toggleSave(id) {
-  const trend = allTrends.find(t => t.id === id);
-  if (!trend) return;
-
-  if (savedIds.has(id)) {
-    await sb.from('saved_designs').delete().eq('id', id);
-    savedIds.delete(id);
-    showToast('Dihapus dari tersimpan');
-  } else {
-    await sb.from('saved_designs').insert([trend]);
-    savedIds.add(id);
-    showToast('♥ Tersimpan!');
+function render() {
+  const grid = document.getElementById('grid');
+  const list = activeFilter === 'semua'
+    ? allItems : allItems.filter(i => i.kategori === activeFilter);
+  if (!list.length) {
+    grid.innerHTML = `<div class="state"><h3>Belum ada karya</h3><p>Tunggu update otomatis jam 09:00 WIB.</p></div>`;
+    return;
   }
+  grid.innerHTML = list.map(cardHTML).join('');
+  bindSave(grid);
+}
 
-  updateSavedBadge();
-  const btn = document.querySelector(`.save-btn[data-id="${id}"]`);
+function bindSave(root) {
+  root.querySelectorAll('.save-btn').forEach(btn =>
+    btn.addEventListener('click', () => toggleSave(btn.dataset.id)));
+}
+
+async function toggleSave(id) {
+  const it = allItems.find(i => i.id === id);
+  if (!it) return;
+  try {
+    if (savedIds.has(id)) {
+      await sb.from('saved_designs').delete().eq('id', id);
+      savedIds.delete(id);
+      toast('Dihapus dari tersimpan');
+    } else {
+      await sb.from('saved_designs').insert([{ id, data: it }]);
+      savedIds.add(id);
+      toast('♥ Tersimpan!');
+    }
+  } catch (e) { toast('Gagal — cek koneksi'); return; }
+  updateBadge();
+  const btn = document.querySelector(`.save-btn[data-id="${CSS.escape(id)}"]`);
   if (btn) {
-    btn.className = 'save-btn ' + (savedIds.has(id) ? 'saved' : '');
-    btn.textContent = savedIds.has(id) ? '♥ Tersimpan' : '♡ Simpan';
+    const s = savedIds.has(id);
+    btn.className = 'save-btn' + (s ? ' saved' : '');
+    btn.textContent = s ? '♥ TERSIMPAN' : '♡ SIMPAN';
   }
 }
 
 async function loadSavedPage() {
-  const grid = document.getElementById('saved-grid');
-  const { data } = await sb.from('saved_designs').select('*').order('saved_at', { ascending: false });
-
-  if (!data || data.length === 0) {
-    grid.innerHTML = `<div class="empty-state"><h3>Belum ada yang tersimpan</h3><p>Kembali ke <a href="index.html">Tren Hari Ini</a> dan klik ♡ Simpan.</p></div>`;
+  const grid = document.getElementById('grid');
+  let rows;
+  try {
+    const { data } = await sb.from('saved_designs')
+      .select('data, saved_at').order('saved_at', { ascending: false });
+    rows = data || [];
+  } catch (e) { rows = []; }
+  if (!rows.length) {
+    grid.innerHTML = `<div class="state"><h3>Belum ada yang tersimpan</h3>
+      <p>Buka <a href="index.html" style="color:var(--accent)">Tren Hari Ini</a> lalu klik ♡ Simpan.</p></div>`;
     return;
   }
-
-  allTrends = data;
-  grid.innerHTML = data.map(t => cardHTML(t)).join('');
-  grid.querySelectorAll('.save-btn').forEach(btn => {
+  allItems = rows.map(r => r.data);
+  grid.innerHTML = allItems.map(cardHTML).join('');
+  grid.querySelectorAll('.save-btn').forEach(btn =>
     btn.addEventListener('click', async () => {
       const id = btn.dataset.id;
       await sb.from('saved_designs').delete().eq('id', id);
       savedIds.delete(id);
-      document.querySelector(`.card[data-id="${id}"]`).remove();
-      showToast('Dihapus dari tersimpan');
-      updateSavedBadge();
-    });
-  });
+      document.querySelector(`.card[data-id="${CSS.escape(id)}"]`).remove();
+      toast('Dihapus'); updateBadge();
+    }));
 }
 
 function setupFilters() {
-  document.querySelectorAll('.filter-btn').forEach(btn => {
+  document.querySelectorAll('.filter-btn').forEach(btn =>
     btn.addEventListener('click', () => {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeFilter = btn.dataset.filter;
-      renderTrends(allTrends);
-    });
-  });
+      render();
+    }));
 }
 
-function updateSavedBadge() {
-  const badge = document.getElementById('saved-count');
-  if (!badge) return;
-  if (savedIds.size > 0) {
-    badge.textContent = savedIds.size;
-    badge.classList.remove('hidden');
-  } else {
-    badge.classList.add('hidden');
-  }
+function updateBadge() {
+  const b = document.getElementById('saved-count');
+  if (!b) return;
+  if (savedIds.size) { b.textContent = savedIds.size; b.classList.remove('hidden'); }
+  else b.classList.add('hidden');
 }
 
-function showToast(msg) {
-  const toast = document.getElementById('toast');
-  toast.textContent = msg;
-  toast.classList.remove('hidden');
-  setTimeout(() => toast.classList.add('hidden'), 2500);
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.remove('hidden');
+  setTimeout(() => t.classList.add('hidden'), 2200);
 }
 
 init();

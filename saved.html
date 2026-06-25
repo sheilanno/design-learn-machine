@@ -10,43 +10,47 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">◈ DesignRef</a>
+      <a href="index.html" class="logo">
+        <span class="star chrome-star">✦</span>
+        <span class="name chrome">sesillia's pick</span>
+      </a>
       <nav class="nav">
-        <a href="index.html" class="nav-link">Tren Hari Ini</a>
-        <a href="saved.html" class="nav-link active">♥ Tersimpan <span id="saved-count" class="badge hidden">0</span></a>
+        <a href="index.html" class="nav-link">[ TREN ]</a>
+        <a href="saved.html" class="nav-link active">[ TERSIMPAN ♥<span id="saved-count" class="badge hidden">0</span> ]</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <section class="hero">
     <div class="container">
-      <div class="page-hero">
-        <div>
-          <h1 class="page-title">Koleksi Tersimpan</h1>
-          <p class="update-info">Desain yang kamu simpan dari semua waktu</p>
-        </div>
+      <div class="hero-mesh"></div>
+      <div class="hero-orb"></div>
+      <span class="star-deco" style="left:210px;top:120px;font-size:18px;transform:rotate(-12deg)">✦</span>
+      <div class="hero-content">
+        <div class="hero-label">◖ KOLEKSI PRIBADIMU ◗</div>
+        <h1 class="hero-title">Yang kamu <em>simpan</em>, tetap di sini<span class="dot">.</span></h1>
       </div>
+    </div>
+  </section>
 
-      <div id="saved-grid" class="trends-grid">
-        <div class="loading-state">
-          <div class="spinner"></div>
-          <p>Memuat koleksi tersimpan...</p>
-        </div>
-      </div>
+  <main class="container">
+    <div id="grid" class="grid">
+      <div class="state"><div class="spinner"></div><p>Memuat koleksi…</p></div>
     </div>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>Update otomatis setiap hari jam 09:00 WIB</p>
+    <div class="container footer-inner">
+      <span>◇ TERSIMPAN PERMANEN DI SUPABASE</span>
+      <span>✦ EST. 2026</span>
     </div>
   </footer>
 
   <div id="toast" class="toast hidden"></div>
 
   <script>
-    const SUPABASE_URL = 'https://erjrqfobtomicxaqcxaw.supabase.co';
-    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVyanJxZm9idG9taWN4YXFjeGF3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMTczOTQsImV4cCI6MjA5Nzg5MzM5NH0.8oXe29hRvnJV6hlxVYpRd99xnw9fd5MIMdVx9V9Ywe0';
+    const SUPABASE_URL = 'GANTI_SUPABASE_URL';
+    const SUPABASE_KEY = 'GANTI_SUPABASE_ANON_KEY';
     const PAGE = 'saved';
   </script>
   <script src="assets/script.js"></script>

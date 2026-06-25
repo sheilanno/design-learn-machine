@@ -3,65 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DesignRef — Tren Desain Grafis Harian</title>
+  <title>DesignRef — Tren Desain & Fotografi Harian</title>
   <link rel="stylesheet" href="assets/style.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">◈ DesignRef</a>
+      <a href="index.html" class="logo">
+        <span class="star chrome-star">✦</span>
+        <span class="name chrome">sesillia's pick</span>
+      </a>
       <nav class="nav">
-        <a href="index.html" class="nav-link active">Tren Hari Ini</a>
-        <a href="saved.html" class="nav-link">♥ Tersimpan <span id="saved-count" class="badge hidden">0</span></a>
+        <a href="index.html" class="nav-link active">[ TREN ]</a>
+        <a href="saved.html" class="nav-link">[ TERSIMPAN ♥<span id="saved-count" class="badge hidden">0</span> ]</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <section class="hero">
     <div class="container">
-      <div class="page-hero">
-        <div>
-          <h1 class="page-title">Tren Desain Grafis</h1>
-          <p id="update-info" class="update-info">Memuat...</p>
-        </div>
-        <div id="pref-section" class="pref-section hidden">
-          <span class="pref-label">Preferensi kamu:</span>
-          <div id="pref-tags" class="pref-tags"></div>
-        </div>
+      <div class="hero-mesh"></div>
+      <div class="hero-orb"></div>
+      <span class="star-deco" style="left:210px;top:120px;font-size:18px;transform:rotate(-12deg)">✦</span>
+      <span class="star-deco" style="right:200px;top:50px;font-size:13px;transform:rotate(10deg)">✶</span>
+      <div class="hero-content">
+        <div class="hero-label" id="hero-label">◖ MEMUAT ARSIP… ◗</div>
+        <h1 class="hero-title">Desain yang sedang <em>berbicara</em> hari ini<span class="dot">.</span></h1>
       </div>
+    </div>
+  </section>
 
-      <div class="filter-bar">
-        <button class="filter-btn active" data-filter="semua">Semua</button>
-        <button class="filter-btn" data-filter="branding">Branding</button>
-        <button class="filter-btn" data-filter="tipografi">Tipografi</button>
-        <button class="filter-btn" data-filter="ilustrasi">Ilustrasi</button>
-        <button class="filter-btn" data-filter="packaging">Packaging</button>
-        <button class="filter-btn" data-filter="poster">Poster</button>
-        <button class="filter-btn" data-filter="color">Color Theory</button>
-        <button class="filter-btn" data-filter="visual identity">Visual Identity</button>
-      </div>
+  <main class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="semua">★ SEMUA</button>
+      <button class="filter-btn" data-filter="branding">branding</button>
+      <button class="filter-btn" data-filter="tipografi">tipografi</button>
+      <button class="filter-btn" data-filter="ilustrasi">ilustrasi</button>
+      <button class="filter-btn" data-filter="packaging">packaging</button>
+      <button class="filter-btn" data-filter="poster">poster</button>
+      <button class="filter-btn" data-filter="color">color</button>
+      <button class="filter-btn" data-filter="visual identity">visual identity</button>
+      <button class="filter-btn" data-filter="fotografi">fotografi</button>
+    </div>
 
-      <div id="trends-grid" class="trends-grid">
-        <div class="loading-state">
-          <div class="spinner"></div>
-          <p>Memuat tren hari ini...</p>
-        </div>
-      </div>
+    <div id="grid" class="grid">
+      <div class="state"><div class="spinner"></div><p>Memuat karya…</p></div>
     </div>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>Update otomatis setiap hari jam 09:00 WIB</p>
+    <div class="container footer-inner">
+      <span>◇ AUTO-UPDATE — SETIAP HARI 09:00 WIB</span>
+      <span>✦ EST. 2026</span>
     </div>
   </footer>
 
   <div id="toast" class="toast hidden"></div>
 
   <script>
-    const SUPABASE_URL = 'https://erjrqfobtomicxaqcxaw.supabase.co';
-    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVyanJxZm9idG9taWN4YXFjeGF3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMTczOTQsImV4cCI6MjA5Nzg5MzM5NH0.8oXe29hRvnJV6hlxVYpRd99xnw9fd5MIMdVx9V9Ywe0';
+    const SUPABASE_URL = 'GANTI_SUPABASE_URL';
+    const SUPABASE_KEY = 'GANTI_SUPABASE_ANON_KEY';
     const PAGE = 'index';
   </script>
   <script src="assets/script.js"></script>
