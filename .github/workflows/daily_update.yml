@@ -26,10 +26,10 @@ jobs:
       - name: Jalankan script pengambil desain
         env:
           UNSPLASH_KEY: ${{ secrets.UNSPLASH_KEY }}
-          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+          PEXELS_KEY: ${{ secrets.PIXELS_KEY }}
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEYS }}
         run: python fetch_designs.py
 
       - name: Simpan hasil ke GitHub
