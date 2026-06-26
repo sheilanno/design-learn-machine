@@ -27,6 +27,20 @@ GROQ_KEY = os.environ.get("GROQ_API_KEY", "")
 ARCHIVE_PATH = "data/designs.json"
 PER_CAT = 6  # jumlah karya per kategori (5 kategori x 6 = 30/hari)
 
+BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36")
+
+# >>> ISI DI SINI: username/board Pinterest-mu per kategori (boleh dikosongkan "") <<<
+# Contoh: "photography": "sesillia"  (username)  ATAU  "sesillia/film-photos" (username/board).
+# Kalau diisi, pin dari situ dipakai duluan untuk kategori itu; kalau kosong pakai sumber lain.
+PINTEREST = {
+    "katalog": "",
+    "poster": "",
+    "UI/UX": "",
+    "digital imaging": "",
+    "photography": "",
+}
+
 # 5 kategori: query pencarian, apakah foto, dan aspek analisa yang sesuai
 CATEGORIES = {
     "katalog": {
@@ -45,6 +59,11 @@ CATEGORIES = {
             "grocery product packaging flat lay",
         ],
         "photo": False,
+        "feeds": [
+            ("flickr", "fashion,lookbook,editorial"),
+            ("flickr", "foodphotography,menu"),
+            ("flickr", "product,furniture,interior"),
+        ],
         "aspects": [
             ("FONT", "baca teks yang benar-benar ada di katalog ini. Kenapa font itu (serif/sans/display) dipilih buat nama brand, dan kenapa font yang sama/beda dipakai buat nama produk & harga/detail? Hubungkan karakter font itu sama kesan brand yang ditampilkan"),
             ("WARNA", "warna dominan & pendukung di katalog ini, hubungan keduanya, dan gimana warna itu bikin produk makin 'kejual' atau memperkuat identitas brand-nya"),
@@ -68,6 +87,7 @@ CATEGORIES = {
         ],
         "photo": False,
         "openverse_first": True,  # Openverse punya poster ASLI (gig/exhibition/movie) — match referensi
+        "feeds": [("behance", None), ("tumblr", "typeverything"), ("tumblr", "thedsgnblog"), ("tumblr", "designersof")],  # kurator poster/tipografi
         "aspects": [
             ("FONT", "baca headline & teks yang ada di poster ini. Kenapa font ITU (display tebal/serif/condensed) dipilih buat kata utama, dan gimana karakternya nyambung sama pesan/acara/brand yang dipromosikan?"),
             ("WARNA", "warna dominan & pendukung di poster ini, hubungan keduanya (kontras/senada), dan mood yang dibangun — gimana warna itu narik perhatian bahkan dari jarak jauh"),
@@ -86,7 +106,7 @@ CATEGORIES = {
             "startup landing page hero",
         ],
         "photo": False,
-        "feed": "onepagelove",
+        "feeds": [("onepagelove", None)],
         "aspects": [
             ("LAYOUT", "susunan komponen & seksi halaman ini: grid, navigasi, urutan blok dari atas ke bawah. Gimana whitespace dipakai biar napas & gak sesak?"),
             ("FONT", "baca teks di UI ini. Kenapa font ITU dipilih buat headline/hero vs teks body, dan gimana karakternya mencerminkan kepribadian brand/produknya?"),
@@ -110,6 +130,7 @@ CATEGORIES = {
             "y2k graphic design collage",
         ],
         "photo": False,
+        "feeds": [("behance", None), ("tumblr", "itscolossal"), ("tumblr", "cjwho"), ("tumblr", "designcloud")],  # kurator seni/kreatif
         "aspects": [
             ("TEKNIK", "teknik pengolahan yang KELIHATAN di gambar ini — halftone (titik-titik), duotone (2 warna), color pop, kolase/cutout, pikselasi, blur/distorsi, atau grafis yang ditumpuk di atas foto. Sebut tekniknya dengan spesifik + efek rasa yang dihasilkan"),
             ("WARNA", "color grading/treatment-nya (misal duotone pink, monokrom, saturasi tinggi) + warna utama & pendukung + mood yang kebangun dari perlakuan warna ini"),
@@ -133,6 +154,12 @@ CATEGORIES = {
             "melancholic cinematic portrait",
         ],
         "photo": True,
+        "feeds": [
+            ("flickr", "filmphotography,35mm"),
+            ("flickr", "streetphotography,candid"),
+            ("flickr", "portrait,analog"),
+            ("flickr", "cinematic,moody"),
+        ],
         "aspects": [
             ("ANGLE", "sudut & jarak pengambilan foto ini — low angle (dari bawah, kesan gagah), eye-level (akrab), atau high angle (dari atas, kesan kecil)? Jarak deket (intim) atau jauh (lapang)? Apa efeknya ke subjek?"),
             ("CAHAYA", "sumber & arah cahaya di foto ini — natural/matahari atau buatan (neon/lampu kota)? Dari depan, samping, atau belakang (backlight)? Keras-kontras atau lembut-merata? Gimana cahaya itu bentuk mood-nya?"),
@@ -389,6 +416,140 @@ def fetch_onepagelove(n=12):
         return []
 
 
+def fetch_tumblr(blog, n=8):
+    """Blog kurator Tumblr (RSS resmi) — pas untuk poster & digital imaging."""
+    try:
+        r = requests.get(f"https://{blog}.tumblr.com/rss",
+                         headers={"User-Agent": BROWSER_UA}, timeout=20)
+        r.raise_for_status()
+        items = re.findall(r"<item>(.*?)</item>", r.text, re.DOTALL)
+        out = []
+        for it in items:
+            m = re.search(r'https?://\d+\.media\.tumblr\.com[^\s"\'<>\]]+', it)
+            if not m:
+                continue
+            img = m.group(0).replace("&amp;", "&")
+            title = re.search(r"<title>(.*?)</title>", it, re.DOTALL)
+            link = re.search(r"<link>(.*?)</link>", it, re.DOTALL)
+            t = re.sub(r"<!\[CDATA\[|\]\]>", "", title.group(1)).strip() if title else blog
+            out.append({
+                "title": (t or blog)[:90],
+                "image": img,
+                "link": link.group(1).strip() if link else f"https://{blog}.tumblr.com",
+                "source": "Tumblr",
+                "author": blog,
+            })
+        return out[:n]
+    except Exception as e:
+        print(f"    Tumblr {blog} gagal: {str(e)[:60]}")
+        return []
+
+
+def fetch_pinterest(user, n=8):
+    """Feed RSS resmi Pinterest. user = 'username' atau 'username/board'."""
+    try:
+        r = requests.get(f"https://www.pinterest.com/{user}/feed.rss",
+                         headers={"User-Agent": BROWSER_UA}, timeout=20)
+        r.raise_for_status()
+        items = re.findall(r"<item>(.*?)</item>", r.text, re.DOTALL)
+        out = []
+        for it in items:
+            m = re.search(r"https?://i\.pinimg\.com/[^\s\"'<>\]]+?\.(?:jpg|jpeg|png)", it)
+            if not m:
+                continue
+            # naikkan resolusi: ganti segmen ukuran (236x/474x/564x) jadi 736x
+            img = re.sub(r"/\d+x\d*/", "/736x/", m.group(0), count=1)
+            title = re.search(r"<title>(.*?)</title>", it, re.DOTALL)
+            link = re.search(r"<link>(.*?)</link>", it, re.DOTALL)
+            t = re.sub(r"<!\[CDATA\[|\]\]>", "", title.group(1)).strip() if title else "Pinterest"
+            out.append({
+                "title": (t or "Pinterest pin")[:90],
+                "image": img,
+                "link": link.group(1).strip() if link else m.group(0),
+                "source": "Pinterest",
+                "author": user.split("/")[0],
+            })
+        return out[:n]
+    except Exception as e:
+        print(f"    Pinterest {user} gagal: {str(e)[:60]}")
+        return []
+
+
+def fetch_behance(n=12):
+    """Proyek unggulan Behance (RSS resmi) — kurasi portofolio desainer.
+    CATATAN: feed CAMPUR semua bidang (filter ?field= ternyata diabaikan Behance),
+    jadi paling pas untuk kategori grafis yang luas (poster / digital imaging)."""
+    try:
+        r = requests.get("https://www.behance.net/feeds/projects",
+                         headers={"User-Agent": BROWSER_UA}, timeout=20)
+        r.raise_for_status()
+        items = re.findall(r"<item>(.*?)</item>", r.text, re.DOTALL)
+        out = []
+        for it in items:
+            m = re.search(r'https?://mir-s3-cdn-cf\.behance\.net/projects/\d+/[^\s"\'<>\]]+', it)
+            if not m:
+                continue
+            img = re.sub(r'/projects/\d+/', '/projects/808/', m.group(0))  # naikkan ke 808px
+            title = re.search(r"<title>(.*?)</title>", it, re.DOTALL)
+            link = re.search(r"<link>(.*?)</link>", it, re.DOTALL)
+            t = re.sub(r"<!\[CDATA\[|\]\]>", "", title.group(1)).strip() if title else "Behance"
+            out.append({
+                "title": t[:90],
+                "image": img,
+                "link": link.group(1).strip() if link else "https://www.behance.net",
+                "source": "Behance",
+                "author": "",
+            })
+        return out[:n]
+    except Exception as e:
+        print(f"    Behance gagal: {str(e)[:60]}")
+        return []
+
+
+def fetch_flickr(tags, n=8):
+    """Foto publik Flickr per-tag (RSS, tanpa key). Bagus untuk photography & katalog."""
+    try:
+        r = requests.get("https://www.flickr.com/services/feeds/photos_public.gne",
+                         params={"tags": tags, "format": "rss2"},
+                         headers={"User-Agent": BROWSER_UA}, timeout=20)
+        r.raise_for_status()
+        items = re.findall(r"<item>(.*?)</item>", r.text, re.DOTALL)
+        out = []
+        for it in items:
+            m = re.search(r'https?://live\.staticflickr\.com/[^\s"\'<>\]]+?\.jpg', it)
+            if not m:
+                continue
+            img = re.sub(r'_[a-z]\.jpg$', '_b.jpg', m.group(0))  # normalisasi ke ukuran besar (_b ~1024px)
+            title = re.search(r"<title>(.*?)</title>", it, re.DOTALL)
+            link = re.search(r"<link>(.*?)</link>", it, re.DOTALL)
+            t = re.sub(r"<!\[CDATA\[|\]\]>", "", title.group(1)).strip() if title else tags
+            out.append({
+                "title": (t or tags)[:90],
+                "image": img,
+                "link": link.group(1).strip() if link else m.group(0),
+                "source": "Flickr",
+                "author": "",
+            })
+        return out[:n]
+    except Exception as e:
+        print(f"    Flickr {tags} gagal: {str(e)[:60]}")
+        return []
+
+
+def fetch_feed(kind, name, n):
+    if kind == "onepagelove":
+        return fetch_onepagelove(n)
+    if kind == "tumblr":
+        return fetch_tumblr(name, n)
+    if kind == "pinterest":
+        return fetch_pinterest(name, n)
+    if kind == "behance":
+        return fetch_behance(n)
+    if kind == "flickr":
+        return fetch_flickr(name, n)
+    return []
+
+
 def collect(query, info):
     pool = []
     # poster: Openverse punya poster asli (gig/exhibition/movie) -> jadikan utama.
@@ -565,10 +726,19 @@ TEMPLATE_BY_CAT = {
 
 def template_analysis(item, colors, cat, info):
     cat_texts = TEMPLATE_BY_CAT.get(cat, {})
+    suhu = colors.get("suhu", "netral")
+    # catatan cahaya yang menyesuaikan suhu warna ASLI tiap foto (biar gak seragam)
+    cahaya_pre = {
+        "hangat": "Dari warnanya yang condong HANGAT, cahayanya kemungkinan dari matahari sore/golden hour atau lampu kekuningan — kesannya cozy & intim. ",
+        "sejuk": "Dari warnanya yang condong SEJUK, cahayanya kemungkinan teduh/mendung atau lampu putih-neon — kesannya kalem, melankolis, atau modern. ",
+        "netral": "Warnanya cukup netral, jadi cahayanya kelihatan merata & seimbang, gak terlalu hangat atau dingin. ",
+    }.get(suhu, "")
     bd = []
     for lab, hint in info["aspects"]:
         if lab == "WARNA":
             text = colors["combo"] + " Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        elif lab == "CAHAYA":
+            text = cahaya_pre + (cat_texts.get("CAHAYA") or TEMPLATE_TEXT.get("CAHAYA", ""))
         else:
             text = cat_texts.get(lab) or TEMPLATE_TEXT.get(lab, "Perhatiin bagian " + hint + ".")
         bd.append({"label": lab, "text": text})
@@ -660,19 +830,26 @@ def main():
         print(f"\n=== {cat} (target {PER_CAT}) ===")
         got = 0
 
-        if info.get("feed") == "onepagelove":
-            feed_items = fetch_onepagelove(40)
-            random.shuffle(feed_items)  # variasi: jangan selalu ambil yang teratas
-            for cand in feed_items:
-                if got >= PER_CAT:
-                    break
-                built = process(cand, idx, cat, info, seen)
-                if built:
-                    new_items.append(built)
-                    idx += 1
-                    got += 1
-                    time.sleep(1)
+        # 1) Sumber kurasi: Pinterest pribadi (kalau diisi) + Tumblr / One Page Love
+        feeds = list(info.get("feeds", []))
+        pin = PINTEREST.get(cat, "").strip()
+        if pin:
+            feeds = [("pinterest", pin)] + feeds
+        feed_pool = []
+        for kind, name in feeds:
+            feed_pool += fetch_feed(kind, name, PER_CAT * 4)
+        random.shuffle(feed_pool)  # variasi: jangan selalu ambil yang teratas
+        for cand in feed_pool:
+            if got >= PER_CAT:
+                break
+            built = process(cand, idx, cat, info, seen)
+            if built:
+                new_items.append(built)
+                idx += 1
+                got += 1
+                time.sleep(1)
 
+        # 2) Cadangan stock (kalau kurasi belum cukup)
         if got < PER_CAT:
             queries = list(info["queries"])
             random.shuffle(queries)
