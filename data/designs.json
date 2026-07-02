@@ -1,140 +1,176 @@
 {
-  "updated": "01 July 2026, 19:22 WIB",
+  "updated": "02 July 2026, 18:44 WIB",
   "last_count": 30,
   "items": [
     {
-      "id": "20260701-0",
-      "title": "Produk Kosmetik dalam Dekorasi Minimalis",
+      "id": "20260702-0",
+      "title": "Katalog Fashion Item dengan Sentuhan Personal",
       "source": "Unsplash",
-      "author": "Clearcut Derby",
-      "link": "https://unsplash.com/photos/a-table-topped-with-a-bunch-of-different-types-of-cosmetics-pfot_JVH274",
-      "image": "https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBjb3NtZXRpY3MlMjBwcm9kdWN0JTIwY2F0YWxvZ3xlbnwwfDB8fHwxNzgyOTA4NDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "author": "Toa Heftiba",
+      "link": "https://unsplash.com/photos/pair-of-white-and-black-low-top-sneakers-near-black-skirt-on-brown-clothes-hanger-top-view-photography-KQ1n6HzSahY",
+      "image": "https://images.unsplash.com/photo-1485125639709-a60c3a500bf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwZWNvbW1lcmNlJTIwcHJvZHVjdCUyMGdyaWQlMjBjbGVhbnxlbnwwfDB8fHwxNzgyOTkyNTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "kategori": "katalog",
       "tingkat": "lanjut",
-      "teori": "Prinsip Desain Visual",
+      "teori": "Teori Komposisi",
       "breakdown": [
         {
           "label": "FONT",
-          "text": "Tidak ada teks yang terlihat dalam gambar ini, sehingga tidak dapat dianalisis font yang digunakan."
+          "text": "Font sans-serif digunakan untuk keseluruhan teks, memberi kesan modern dan bersih. Pemilihan font ini cocok untuk katalog fashion yang ingin tampil stylish dan muda."
         },
         {
           "label": "WARNA",
-          "text": "Warna dominan dalam gambar ini adalah berbagai gradasi warna peach dan putih. Warna peach memberikan kesan lembut dan feminin, sementara putih menambahkan kesan bersih dan minimalis. Kombinasi warna ini membuat produk kosmetik terlihat menarik dan elegan."
+          "text": "Warna dominan hitam dan abu-abu menciptakan kesan minimalis dan elegan. Warna biru pada buku menambahkan sentuhan personal dan kreatif, memperkuat identitas brand yang mungkin berfokus pada gaya hidup urban."
         },
         {
           "label": "LAYOUT",
-          "text": "Layout dalam gambar ini menampilkan produk kosmetik yang diatur secara kreatif di atas beberapa kotak putih dengan berbagai ukuran. Penggunaan ruang kosong yang efektif membuat mata dapat dengan mudah menjelajahi setiap produk tanpa terkesan berantakan. Penataan yang simetris dan proporsional menambah kesan estetis."
+          "text": "Layout yang digunakan adalah komposisi asimetris dengan penempatan item yang dinamis. Penggunaan ruang kosong yang efektif membuat katalog terkesan tidak terlalu padat dan memudahkan pandangan."
         }
       ],
-      "pelajaran": "Pastikan untuk menggunakan kombinasi warna yang harmonis dan penataan layout yang seimbang untuk membuat produk Anda terlihat lebih menarik dan profesional.",
+      "pelajaran": "Pastikan pemilihan font, warna, dan layout mendukung tema dan identitas brand untuk menciptakan katalog yang efektif.",
       "palette": [
-        "#FDA794",
-        "#FBE7DE",
-        "#E88B75",
-        "#E76C56"
-      ],
-      "suhu": "hangat",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:26.115647+07:00"
-    },
-    {
-      "id": "20260701-1",
-      "title": "Katalog Produk Violet Glass",
-      "source": "Unsplash",
-      "author": "pmv chamara",
-      "link": "https://unsplash.com/photos/a-book-opened-to-a-page-with-a-bottle-of-liquid-in-front-of-it-KqHNWdP4pWg",
-      "image": "https://images.unsplash.com/photo-1631390573311-3bb5329df0d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwyfHxiZWF1dHklMjBjb3NtZXRpY3MlMjBwcm9kdWN0JTIwY2F0YWxvZ3xlbnwwfDB8fHwxNzgyOTA4NDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "kategori": "katalog",
-      "tingkat": "lanjut",
-      "teori": "Prinsip Desain Hierarki Visual",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Font yang digunakan untuk nama brand 'Violet Glass' adalah sans-serif dengan aksen modern dan minimalis. Font ini dipilih karena sesuai dengan kesan brand yang ingin disampaikan, yaitu elegan dan kontemporer. Ukuran font yang besar dan proporsi yang tepat membuat nama brand menjadi fokus utama."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna dominan pada katalog ini adalah hijau muda yang bersih dan minimalis. Warna sekunder yang digunakan adalah ungu, yang merupakan warna yang terkait dengan produk dan menciptakan kesan yang konsisten dengan brand Violet Glass. Warna-warna ini bekerja sama untuk menciptakan suasana yang harmonis dan menarik."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Layout katalog ini menggunakan sistem susunan yang sederhana dan efektif. Foto produk ditempatkan pada halaman yang sama dengan informasi produk, membuat pengguna dapat dengan mudah melihat dan memahami informasi yang dibutuhkan. Jarak antar item yang tepat dan konsistensi grid membuat halaman ini enak dijelajahi."
-        }
-      ],
-      "pelajaran": "Pastikan kamu menggunakan hierarki visual yang jelas dan konsisten dalam desain katalogmu, sehingga pengguna dapat dengan mudah menemukan informasi yang dibutuhkan.",
-      "palette": [
-        "#DADFCE",
-        "#ACB69B",
-        "#C8D1B9",
-        "#5E6259"
+        "#1A1D1A",
+        "#A5A2A2",
+        "#DAD6D7",
+        "#6A665D"
       ],
       "suhu": "netral",
       "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:28.981772+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:42:46.634914+07:00"
     },
     {
-      "id": "20260701-2",
-      "title": "Katalog Eyeshadow yang Minimalis dan Elegan",
-      "source": "Pixabay",
-      "author": "AdoreBeautyNZ",
-      "link": "https://pixabay.com/photos/eyeliner-makeup-beauty-make-up-4713577/",
-      "image": "https://pixabay.com/get/g581173e0fca398c1ce746288a9d9c8bc0ccf50ca718d9ee6271323d9fe399338ddf78d119012b6379d98ead4f8706b40abc102100c1b42d334edb2a9f3e8043e_1280.jpg",
+      "id": "20260702-1",
+      "title": "Katalog Fashion Lookbook Minimalis",
+      "source": "Unsplash",
+      "author": "INVICTUS Tailoring﹒sneaker socks",
+      "link": "https://unsplash.com/photos/pair-of-white-and-black-low-top-sneakers-F3EqOjZodBo",
+      "image": "https://images.unsplash.com/flagged/photo-1557599312-a15fc210f751?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWNvbW1lcmNlJTIwcHJvZHVjdCUyMGdyaWQlMjBjbGVhbnxlbnwwfDB8fHwxNzgyOTkyNTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "kategori": "katalog",
       "tingkat": "lanjut",
       "teori": "Teori Warna Monokrom",
       "breakdown": [
         {
           "label": "FONT",
-          "text": "Font serif yang digunakan pada kata 'Your' dan 'World' dipilih karena kesan klasik dan elegan yang ingin disampaikan oleh brand. Ukuran font yang besar juga membuat perhatian langsung tertuju pada judul tersebut."
+          "text": "Font sans-serif digunakan untuk nama brand dan produk karena kesan modern dan bersih. Ukuran font yang berbeda-beda juga membantu menciptakan hierarki visual yang jelas."
         },
         {
           "label": "WARNA",
-          "text": "Warna dominan putih dan krem pada katalog ini menciptakan kesan bersih dan minimalis. Warna-warna netral ini juga membuat produk eyeshadow menjadi lebih menonjol dan elegan."
+          "text": "Warna dominan hitam dan abu-abu menciptakan kesan minimalis dan elegan. Warna-warna netral ini juga membuat produk terlihat lebih 'kejual' dan memperkuat identitas brand yang modern."
         },
         {
           "label": "LAYOUT",
-          "text": "Layout katalog ini menggunakan sistem susunan yang sederhana dengan produk eyeshadow ditempatkan di tengah dan dikelilingi oleh ruang kosong. Hal ini membuat produk menjadi lebih fokus dan mudah dilihat."
+          "text": "Layout yang digunakan adalah flat lay dengan penataan produk yang rapi dan simetris. Penggunaan ruang kosong yang efektif membuat mata mudah menjelajahi halaman dan fokus pada produk."
         }
       ],
-      "pelajaran": "Pastikan kamu menggunakan font yang sesuai dengan kesan yang ingin disampaikan oleh brand dan jangan ragu untuk menggunakan ruang kosong untuk membuat produk lebih menonjol.",
+      "pelajaran": "Pastikan kamu menggunakan hierarki visual yang jelas dengan font dan warna yang konsisten untuk membuat katalog produk yang menarik dan mudah dinavigasi.",
       "palette": [
-        "#DEDBDC",
-        "#B2A6A2",
-        "#C8B5AC",
-        "#2B1810"
+        "#1A1C1B",
+        "#A4A1A1",
+        "#DBD7D8",
+        "#69655D"
       ],
       "suhu": "netral",
       "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:32.865840+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:42:49.470815+07:00"
     },
     {
-      "id": "20260701-3",
-      "title": "Lipstik Merah yang Mencolok",
-      "source": "Pixabay",
-      "author": "8618939",
-      "link": "https://pixabay.com/photos/makeup-cosmetics-lipstick-6698881/",
-      "image": "https://pixabay.com/get/gb3ebb2e815581f81ee18964445141daea39649de6b5b78b29dd9a1b158e82ed3bbc199670f7473df88cf43a4c19c11b009993c44b70a311ef1b10008e11b097c_1280.jpg",
+      "id": "20260702-2",
+      "title": "Katalog Produk Kemasan Unik",
+      "source": "Pexels",
+      "author": "Ron Lach",
+      "link": "https://www.pexels.com/photo/a-packaging-for-a-product-9594419/",
+      "image": "https://images.pexels.com/photos/9594419/pexels-photo-9594419.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "kategori": "katalog",
       "tingkat": "mudah",
       "teori": "-",
       "breakdown": [
         {
           "label": "FONT",
-          "text": "Tidak ada teks yang terlihat pada gambar ini, jadi tidak bisa dianalisis font-nya."
+          "text": "Font sans-serif yang digunakan pada label 'CLOTH for real life' terlihat simpel dan bersih, cocok untuk brand yang ingin tampil modern dan minimalis. Pemilihan font ini juga memudahkan pembaca untuk membaca informasi dengan cepat."
         },
         {
           "label": "WARNA",
-          "text": "Warna dominan hitam menciptakan kesan dramatis dan premium, sementara warna sekunder merah menambahkan kesan berani dan mencolok. Kombinasi warna ini memperkuat identitas brand yang mungkin berfokus pada produk kecantikan yang berani dan elegan."
+          "text": "Warna dominan coklat pada kardus dan warna pastel pada label menciptakan kontras yang menarik. Warna-warna ini juga memberikan kesan alami dan ramah lingkungan, yang mungkin sesuai dengan konsep brand yang peduli dengan lingkungan."
         },
         {
           "label": "LAYOUT",
-          "text": "Layout gambar ini sangat sederhana dengan lipstik ditempatkan di tengah dengan ruang kosong yang luas, membuat produk menjadi fokus utama. Penggunaan refleksi pada permukaan hitam menambah kesan mewah dan elegan."
+          "text": "Layout yang digunakan terlihat sederhana dengan penempatan label pada kardus yang strategis. Penggunaan ruang kosong yang cukup membuat elemen-elemen visual tidak terlihat terlalu padat, sehingga memudahkan mata untuk fokus pada produk."
         }
       ],
-      "pelajaran": "Pastikan produk Anda menjadi fokus utama dengan menggunakan ruang kosong yang efektif dan pencahayaan yang tepat.",
+      "pelajaran": "Pastikan pemilihan font, warna, dan layout yang digunakan konsisten dengan identitas brand dan tujuan komunikasi produk.",
+      "palette": [
+        "#E1D1AD",
+        "#CAB18E",
+        "#DCD8D4",
+        "#906836"
+      ],
+      "suhu": "hangat",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:42:52.904518+07:00"
+    },
+    {
+      "id": "20260702-3",
+      "title": "Packaging CLOTH yang Rapi dan Minimalis",
+      "source": "Pexels",
+      "author": "Ron Lach",
+      "link": "https://www.pexels.com/photo/brown-cardboard-boxes-on-yellow-surface-9594420/",
+      "image": "https://images.pexels.com/photos/9594420/pexels-photo-9594420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "kategori": "katalog",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Font yang digunakan pada kemasan CLOTH adalah sans-serif yang sederhana dan bersih. Font ini dipilih karena sesuai dengan kesan minimalis dan modern yang ingin disampaikan oleh brand. Penggunaan font sans-serif pada nama brand dan detail produk membuat tampilan menjadi rapi dan mudah dibaca."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna dominan pada gambar ini adalah warna netral seperti beige dan coklat. Warna-warna ini memberikan kesan alami dan sederhana, yang sesuai dengan identitas brand CLOTH yang minimalis dan modern. Warna pendukung seperti ungu muda dan abu-abu digunakan untuk menambahkan variasi dan membuat tampilan lebih menarik."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Sistem susunan pada gambar ini menggunakan layout yang sederhana dan simetris. Kemasan dan label produk disusun dengan rapi dan teratur, membuat tampilan menjadi mudah dijelajahi dan enak dilihat. Penggunaan ruang kosong yang cukup juga membuat tampilan tidak terlalu padat dan memberikan kesan yang lebih minimalis."
+        }
+      ],
+      "pelajaran": "Pastikan kamu menggunakan font yang sesuai dengan kesan brand dan produk, serta susun layout yang rapi dan teratur untuk membuat katalog yang efektif.",
+      "palette": [
+        "#DFCFAA",
+        "#C9B18D",
+        "#B59371",
+        "#DED6D2"
+      ],
+      "suhu": "hangat",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:42:57.616356+07:00"
+    },
+    {
+      "id": "20260702-4",
+      "title": "Lipstik Merah yang Mencolok",
+      "source": "Pixabay",
+      "author": "8618939",
+      "link": "https://pixabay.com/photos/makeup-cosmetics-lipstick-6698881/",
+      "image": "https://pixabay.com/get/g46f555a87d8534f8d418b9e1d862dae6fa9b8626315407a08e796f1395c7b72501abe3ec002201ec147e341d0af5c9f96275ff03210af143f0f54e6db95dacdd_1280.jpg",
+      "kategori": "katalog",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Tidak ada teks yang terlihat di gambar ini, jadi tidak bisa dianalisis font-nya."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna dominan hitam membuat lipstik merah ini sangat mencolok. Warna hitam juga memberikan kesan dramatis dan premium. Warna merah yang dipilih sebagai warna sekunder memberikan kesan yang kuat dan berani."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Lipstik ditempatkan di tengah dengan ruang kosong yang luas, membuat fokus mata langsung tertuju pada produk. Penggunaan refleksi di bawah lipstik juga menambah kesan mewah."
+        }
+      ],
+      "pelajaran": "Pastikan produkmu menjadi fokus utama dengan menggunakan ruang kosong yang efektif dan pencahayaan yang tepat.",
       "palette": [
         "#020202",
         "#9B0814",
@@ -143,584 +179,548 @@
       ],
       "suhu": "netral",
       "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:36.918080+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:03.132546+07:00"
     },
     {
-      "id": "20260701-4",
-      "title": "Katalog Fashion Urban dengan Sentuhan Grafiti",
-      "source": "Unsplash",
-      "author": "Linoleum Creative Collective",
-      "link": "https://unsplash.com/photos/man-wearing-sunglasses-and-black-jacket-standing-beside-door-3AnVG5ENdi8",
-      "image": "https://images.unsplash.com/photo-1576775068668-c147f14c36f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwxfHxzdHJlZXR3ZWFyJTIwbG9va2Jvb2slMjBlZGl0b3JpYWwlMjBjYW1wYWlnbnxlbnwwfDB8fHwxNzgyOTA4NDk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "20260702-5",
+      "title": "Katalog Produk Perawatan Pria Nivea Men",
+      "source": "Pixabay",
+      "author": "stevepb",
+      "link": "https://pixabay.com/photos/razor-shaving-cream-aftershave-414909/",
+      "image": "https://pixabay.com/get/gc118ba17b636e92b50a42884be22bbfc6a7353731b6c8993e9a012d77e36fd60345ceb05a4bac2446364a26350240da589604229ffe67336f835fca330c36e6c_1280.jpg",
       "kategori": "katalog",
-      "tingkat": "lanjut",
-      "teori": "Teori Warna dan Komposisi",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Font yang digunakan untuk nama brand dan produk tidak terlihat secara jelas dalam gambar ini, namun jika kita analisis secara umum, font sans-serif mungkin dipilih untuk kesan modern dan urban yang sesuai dengan tema grafiti dan gaya jalanan."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna dominan kuning tidak terlihat dalam gambar ini, namun warna netral abu-abu dan hitam yang digunakan dapat memperkuat kesan urban dan edgy dari brand. Warna-warna cerah dari grafiti di latar belakang menambahkan kesan playful dan kreatif."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Layout gambar ini menggunakan konsep single-hero dengan foto besar dan focal point pada model. Ruang kosong di sekitar model membantu menonjolkan subjek dan menambahkan kesan minimalis."
-        }
-      ],
-      "pelajaran": "Pastikan pemilihan warna dan komposisi gambar dapat memperkuat identitas brand dan menarik perhatian target audiens.",
-      "palette": [
-        "#1A1B15",
-        "#5E6559",
-        "#A2A397",
-        "#68908F"
-      ],
-      "suhu": "netral",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:42.632392+07:00"
-    },
-    {
-      "id": "20260701-5",
-      "title": "Katalog Fashion Streetwear Supreme",
-      "source": "Unsplash",
-      "author": "JC Gellidon",
-      "link": "https://unsplash.com/photos/woman-standing-beside-store-81fEanp-xXc",
-      "image": "https://images.unsplash.com/photo-1510853851847-5c02796e8c8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwyfHxzdHJlZXR3ZWFyJTIwbG9va2Jvb2slMjBlZGl0b3JpYWwlMjBjYW1wYWlnbnxlbnwwfDB8fHwxNzgyOTA4NDk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "kategori": "katalog",
-      "tingkat": "lanjut",
-      "teori": "Teori Desain Visual Hierarki",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Kata 'Supreme' pakai font sans-serif yang bold dan italic, membuat kesan kuat dan stylish. Font ini dipilih karena Supreme adalah brand yang identik dengan gaya streetwear yang berani dan ekspresif. Penggunaan font sans-serif juga memberikan kesan modern dan clean."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna dominan hitam dan putih pada gambar ini menciptakan kesan minimalis dan elegan. Warna hitam juga memberikan kesan dramatis dan premium, yang sesuai dengan brand Supreme yang dikenal sebagai brand high-end streetwear."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Layout gambar ini menggunakan konsep full-bleed dengan foto model yang dominan. Penggunaan ruang kosong yang efektif membuat mata fokus pada produk dan model. Sistem susunan yang sederhana dan tidak ramai memungkinkan pengunjung untuk dengan mudah menikmati produk."
-        }
-      ],
-      "pelajaran": "Pastikan hierarki visual dalam katalogmu jelas dan konsisten, gunakan font yang tepat untuk menekankan identitas brand dan produk.",
-      "palette": [
-        "#232121",
-        "#5C5B5C",
-        "#A59C9B",
-        "#4D2829"
-      ],
-      "suhu": "netral",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:45.965165+07:00"
-    },
-    {
-      "id": "20260701-6",
-      "title": "Mockup Skateboard Sederhana",
-      "source": "Tumblr",
-      "author": "designersof",
-      "link": "https://designersof.tumblr.com/post/756651633307500544",
-      "image": "https://64.media.tumblr.com/c6eaa5edd5eefcf2deca1111327b5c5f/tumblr_p8vnwxEPkg1qcq8vao1_500.jpg",
-      "kategori": "poster",
       "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Kata 'Mockup' pakai font sans-serif tebal dan agak lebar, cocok buat judul utama karena jelas dan mudah dibaca dari jarak jauh. Bentuknya yang sederhana juga sesuai untuk desain minimalis kayak gini."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama putih/krem bikin kesan bersih dan lapang, sedangkan kuningnya kontras banget dan bikin desain 'pop'. Kombinasi warna komplementer ini menarik perhatian mata."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Titik fokusnya langsung jatuh ke kata 'Mockup' di skateboard. Hierarki teksnya sederhana, cuma satu fokus utama. Ruang kosongnya juga luas, bikin desainnya terasa lapang dan bersih. Komposisinya simetris dan kalem."
-        }
-      ],
-      "pelajaran": "Pastikan desainmu punya satu titik fokus yang kuat dan gunakan ruang kosong untuk bikin komposisi yang bersih dan menarik.",
-      "palette": [
-        "#E7E6EA",
-        "#FCC60A",
-        "#F1B410",
-        "#A0A0A3"
-      ],
-      "suhu": "netral",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:50.076477+07:00"
-    },
-    {
-      "id": "20260701-7",
-      "title": "Elegan dan Minimalis dengan Tipografi Kuat",
-      "source": "Tumblr",
-      "author": "typeverything",
-      "link": "https://archive.typeverything.com/post/637022273735458816",
-      "image": "https://64.media.tumblr.com/93a07c23ff3acb8862e4ec763f85520f/5df0afab5fc23867-9e/s500x750/55c7cbeec267437b7c040946d6a398bcd3c6393d.png",
-      "kategori": "poster",
-      "tingkat": "lanjut",
-      "teori": "Prinsip Hierarki Visual",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Font yang digunakan adalah jenis serif dengan gaya elegan dan minimalis. Pemilihan font ini cocok untuk menampilkan kesan mewah dan profesional, terutama untuk brand-brand yang terkait dengan produk high-end seperti IWC Schaffhausen dan Audemars Piguet. Penggunaan font yang konsisten dengan variasi tebal dan tipis menambah kesan artistik."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna yang digunakan adalah monokrom dengan dominasi warna hitam pada teks dan latar belakang putih/krem. Kontras yang kuat antara teks dan latar belakang membuat teks mudah terbaca dari jarak jauh. Kesan bersih dan minimalis sangat kuat, membuat fokus langsung tertuju pada teks."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Titik fokus utama adalah pada teks dengan ukuran yang bervariasi, menciptakan hierarki visual yang jelas. Penempatan teks yang simetris dan penggunaan ruang kosong yang luas memberikan kesan lapang dan tidak ramai. Komposisi ini sangat efektif untuk menarik perhatian dan menyampaikan informasi dengan jelas."
-        }
-      ],
-      "pelajaran": "Pastikan untuk menggunakan hierarki visual yang jelas dan konsisten dalam desain poster, serta pilihlah warna dan font yang sesuai dengan pesan yang ingin disampaikan.",
-      "palette": [
-        "#F8F8F8",
-        "#5E5E5E",
-        "#A0A0A0",
-        "#373737"
-      ],
-      "suhu": "netral",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:53.356379+07:00"
-    },
-    {
-      "id": "20260701-8",
-      "title": "Poster Persatuan Damai Suku Asli Amerika",
-      "source": "Tumblr",
-      "author": "designersof",
-      "link": "https://designersof.tumblr.com/post/773393213973250048",
-      "image": "https://64.media.tumblr.com/f57a597f29fd04499e3e38f70f97120b/tumblr_sh6xklvHXI1qcq8vao1_500.jpg",
-      "kategori": "poster",
-      "tingkat": "lanjut",
-      "teori": "Teori Hierarki Visual",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Kata 'THE AMERICAN NATIVE' pakai font bold dan kapital besar karena ingin tampilkan kekuatan dan identitas suku asli Amerika. Font ini cocok buat headline karena tegas dan mudah dibaca dari jarak jauh. Sementara itu, teks pendukung seperti 'TOGETHER IN PEACE' pakai font yang lebih sederhana dan ukuran lebih kecil untuk memberikan informasi tambahan tanpa mengalihkan perhatian dari pesan utama."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna dominan merah dan oranye memberikan kesan berani, energik, dan hangat. Warna-warna ini dipilih untuk membangun semangat dan kesadaran akan pentingnya persatuan. Transisi warna yang halus antara merah dan oranye juga menciptakan kesan harmonis dan menarik perhatian."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Titik fokus utama adalah wajah suku asli Amerika yang ditempatkan di tengah, dikelilingi oleh teks yang menegaskan identitas dan pesan persatuan. Hierarki ukuran teks yang jelas, dengan headline besar dan teks pendukung lebih kecil, membantu mata melihat informasi dengan urut. Komposisi asimetris tapi seimbang membuat poster ini dinamis dan menarik."
-        }
-      ],
-      "pelajaran": "Pastikan kamu menggunakan hierarki visual yang jelas dan warna yang sesuai untuk membangun mood dan menarik perhatian audiens.",
-      "palette": [
-        "#A3351F",
-        "#2B160B",
-        "#AE4A2C",
-        "#572918"
-      ],
-      "suhu": "hangat",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:56.248038+07:00"
-    },
-    {
-      "id": "20260701-9",
-      "title": "Kampanye Iklan Properti 'flip'",
-      "source": "Tumblr",
-      "author": "typeverything",
-      "link": "https://archive.typeverything.com/post/700365297278943232",
-      "image": "https://64.media.tumblr.com/1dbca8731512ad62af2e654f2e6f5aad/7c57252ac457c80d-db/s500x750/c2fd6b8ef2246a6041e19de4743463df0f9c286a.png",
-      "kategori": "poster",
-      "tingkat": "lanjut",
-      "teori": "Teori Warna dan Kontras",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Font yang digunakan pada headline seperti 'Some flip the property' dan 'We flip the industry' terlihat sans-serif dan bold, mungkin dipilih karena sifatnya yang tegas dan modern, sesuai dengan konsep industri properti yang ingin 'dibalik' oleh brand 'flip'."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna dominan kuning dan merah memberikan kesan ceria dan optimis. Kontras sedang antara warna-warna tersebut menciptakan variasi visual tanpa membuat mata tidak nyaman, menarik perhatian dari jarak jauh."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Titik fokus utama jatuh pada teks-teks besar dan jelas seperti 'Some flip the property' dan 'We flip the industry'. Hierarki ukuran teks yang tegas dengan headline besar dan detail kecil membantu memandu pandangan. Komposisinya asimetris namun berani, dengan ruang kosong yang dimanfaatkan untuk menekankan pesan."
-        }
-      ],
-      "pelajaran": "Pastikan kontras warna dan ukuran teks jelas untuk menarik perhatian dengan cepat dan efektif.",
-      "palette": [
-        "#D9D3A1",
-        "#D5B2A3",
-        "#AFA194",
-        "#A38F6F"
-      ],
-      "suhu": "hangat",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:21:59.408366+07:00"
-    },
-    {
-      "id": "20260701-10",
-      "title": "Logo Goldmine Gummies yang Menarik",
-      "source": "Tumblr",
-      "author": "thedsgnblog",
-      "link": "https://thedsgnblog.tumblr.com/post/715710339341303808",
-      "image": "https://64.media.tumblr.com/aa0e5fb75b10e854094aaa10f90d92e1/3a2b969d4a7645bc-d4/s500x750/a382976ae3cd5b44c12cee7a093012733f0cd7a1.jpg",
-      "kategori": "poster",
-      "tingkat": "mudah",
-      "teori": "Teori Keseimbangan",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Kata 'GOLDMINE' pakai font bold melengkung karena ingin tampilkan kesan mewah dan kuat, sesuai dengan konsep 'gold' atau emas. Sementara 'GUMMIES' pakai font kecil dan lurus biar nggak terlalu mencolok, tapi tetep jelas. Ini bikin logo terkesan dinamis dan berenergi."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama krem dan hitam bikin kesan bersih dan mewah. Emas pada logo menambahkan kesan kaya dan menarik. Warna-warna ini bikin logo Goldmine Gummies kelihatan elegan dan berkelas."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Titik fokus utama logo ini adalah tumpukan emas dengan kata 'GOLDMINE' yang besar di atasnya. Komposisinya simetris dan menggunakan ruang kosong yang efektif untuk bikin logo kelihatan rapi dan tidak terlalu penuh. Ini bikin mata langsung fokus ke tengah."
-        }
-      ],
-      "pelajaran": "Pastikan elemen utama dalam desainmu langsung menarik perhatian dan memiliki keseimbangan yang baik.",
-      "palette": [
-        "#EEE1D8",
-        "#0E0C07",
-        "#C89E43",
-        "#ABA096"
-      ],
-      "suhu": "hangat",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:02.368081+07:00"
-    },
-    {
-      "id": "20260701-11",
-      "title": "Desain Poster Minimalis dengan Fokus Warna dan Tekstur",
-      "source": "Tumblr",
-      "author": "designersof",
-      "link": "https://designersof.tumblr.com/post/773472474208829440",
-      "image": "https://64.media.tumblr.com/46097de6f33cfcad10615fd9007cf412/tumblr_prlp6rlIVM1qcq8vao1_500.jpg",
-      "kategori": "poster",
-      "tingkat": "mudah",
-      "teori": "Teori Warna Analogus",
-      "breakdown": [
-        {
-          "label": "FONT",
-          "text": "Tidak ada teks yang terlihat pada gambar ini, jadi tidak ada analisis font yang dapat dilakukan."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna dominan hijau pada poster ini memberikan kesan segar dan alami. Warna sekunder toska yang masih dalam keluarga warna analogus dengan hijau, menciptakan transisi yang halus dan harmonis. Kombinasi warna ini menarik perhatian dan membangun mood yang tenang."
-        },
-        {
-          "label": "LAYOUT",
-          "text": "Titik fokus utama pada poster ini adalah gambar tekstur berwarna-warni yang ditempatkan di tengah dengan dikelilingi oleh border kuning. Hierarki ukuran teks tidak terlihat karena tidak ada teks, namun komposisi gambar dan warna yang digunakan menciptakan kesan simetris dan kalem. Penggunaan ruang kosong yang luas memberikan kesan minimalis dan menarik perhatian ke elemen utama."
-        }
-      ],
-      "pelajaran": "Pelajaran yang bisa diambil dari poster ini adalah pentingnya menggunakan warna analogus untuk menciptakan kesan harmonis dan keseimbangan dalam desain.",
-      "palette": [
-        "#067949",
-        "#11292B",
-        "#E7A121",
-        "#5B8F39"
-      ],
-      "suhu": "sejuk",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:05.896384+07:00"
-    },
-    {
-      "id": "20260701-12",
-      "title": "Right-Click Logo",
-      "source": "One Page Love",
-      "author": "",
-      "link": "https://onepagelove.com/rcl",
-      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-add-right-1782207370613-desktop.jpg",
-      "kategori": "UI/UX",
-      "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "LAYOUT",
-          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
-        },
-        {
-          "label": "FONT",
-          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Warna sekundernya oranye, masih satu keluarga dengan putih/krem (analogus/senada) — transisinya halus, enak dipandang, terasa harmonis. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
-        },
-        {
-          "label": "USABILITY",
-          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
-        }
-      ],
-      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
-      "palette": [
-        "#EEEBE4",
-        "#E0CFB5",
-        "#B3A99D",
-        "#A09470"
-      ],
-      "suhu": "netral",
-      "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:07.649376+07:00"
-    },
-    {
-      "id": "20260701-13",
-      "title": "Rectangles.fm",
-      "source": "One Page Love",
-      "author": "",
-      "link": "https://onepagelove.com/rectangles-fm",
-      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-design-1782135179051-desktop.jpg",
-      "kategori": "UI/UX",
-      "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "LAYOUT",
-          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
-        },
-        {
-          "label": "FONT",
-          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama hitam (kesan: dramatis, premium, serius). Keduanya warna netral (hitam & putih/krem) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
-        },
-        {
-          "label": "USABILITY",
-          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
-        }
-      ],
-      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
-      "palette": [
-        "#0D0D0D",
-        "#D9D8D3",
-        "#A4A39B",
-        "#5E625F"
-      ],
-      "suhu": "netral",
-      "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:09.283165+07:00"
-    },
-    {
-      "id": "20260701-14",
-      "title": "Kevin",
-      "source": "One Page Love",
-      "author": "",
-      "link": "https://onepagelove.com/kevin",
-      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-professional-grade-1782481149603-desktop.jpg",
-      "kategori": "UI/UX",
-      "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "LAYOUT",
-          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
-        },
-        {
-          "label": "FONT",
-          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Keduanya warna netral (putih/krem & hitam) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
-        },
-        {
-          "label": "USABILITY",
-          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
-        }
-      ],
-      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
-      "palette": [
-        "#ECECEC",
-        "#1A1919",
-        "#5F92AD",
-        "#A2A4A7"
-      ],
-      "suhu": "netral",
-      "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:10.800750+07:00"
-    },
-    {
-      "id": "20260701-15",
-      "title": "Desain Canggih untuk Masa Depan Kesehatan",
-      "source": "One Page Love",
-      "author": "",
-      "link": "https://onepagelove.com/101-genai",
-      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-101-genai-1782318750644-desktop.jpg",
-      "kategori": "UI/UX",
-      "tingkat": "lanjut",
-      "teori": "Teori Warna dan Kontras",
-      "breakdown": [
-        {
-          "label": "LAYOUT",
-          "text": "Layoutnya menggunakan kombinasi blok besar untuk hero section dengan headline yang jelas 'Redefining Healthcare Quality with AI', diikuti oleh navigasi yang simpel di atas dan tombol 'Schedule Demo' yang menonjol. Whitespace digunakan efektif untuk mengurangi kesan sesak dan memudahkan fokus pengguna."
-        },
-        {
-          "label": "FONT",
-          "text": "Font sans-serif digunakan untuk teks body karena simpel dan mudah dibaca. Headline 'Redefining Healthcare Quality with AI' mungkin menggunakan font yang sedikit lebih tebal untuk menekankan pentingnya pesan utama. Ini mencerminkan kepribadian brand yang modern dan profesional."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama krem dan putih memberikan kesan bersih dan minimalis. Warna aksen merah digunakan untuk tombol dan elemen lainnya, menciptakan kontras yang cukup untuk menarik perhatian tanpa membuat mata lelah. Mood yang dibangun adalah profesionalisme dan inovasi."
-        },
-        {
-          "label": "USABILITY",
-          "text": "Aksi utama 'Schedule Demo' sangat jelas dan mudah ditemukan. Hierarki informasi juga jelas, dengan pengguna diarahkan untuk memahami masalahnya terlebih dahulu sebelum diarahkan untuk demo. Alurnya cukup logis dan tidak membingungkan."
-        }
-      ],
-      "pelajaran": "Pastikan tombol aksi utama (CTA) sangat menonjol dan mudah ditemukan untuk meningkatkan konversi.",
-      "palette": [
-        "#FBF6F1",
-        "#9A002D",
-        "#78002B",
-        "#CC97A4"
-      ],
-      "suhu": "netral",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:13.879274+07:00"
-    },
-    {
-      "id": "20260701-16",
-      "title": "Neuropelvic Surgery",
-      "source": "One Page Love",
-      "author": "",
-      "link": "https://onepagelove.com/neuropelvic-surgery",
-      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-home-1782316053408-desktop.jpg",
-      "kategori": "UI/UX",
-      "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "LAYOUT",
-          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
-        },
-        {
-          "label": "FONT",
-          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Warna sekundernya oranye, masih satu keluarga dengan putih/krem (analogus/senada) — transisinya halus, enak dipandang, terasa harmonis. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
-        },
-        {
-          "label": "USABILITY",
-          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
-        }
-      ],
-      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
-      "palette": [
-        "#FBFBFA",
-        "#F8D5A4",
-        "#A0A0A0",
-        "#F5AB5F"
-      ],
-      "suhu": "netral",
-      "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:15.328317+07:00"
-    },
-    {
-      "id": "20260701-17",
-      "title": "Cibby",
-      "source": "One Page Love",
-      "author": "",
-      "link": "https://onepagelove.com/cibby",
-      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-cibby-1782827415904-desktop.jpg",
-      "kategori": "UI/UX",
-      "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "LAYOUT",
-          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
-        },
-        {
-          "label": "FONT",
-          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama ungu (kesan: kreatif, mewah, misterius). Dipasangkan dengan warna netral abu-abu — kombinasi warna + netral ini bikin ungu makin menonjol, hasilnya bersih dan tidak berantakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
-        },
-        {
-          "label": "USABILITY",
-          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
-        }
-      ],
-      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
-      "palette": [
-        "#100F12",
-        "#5C5B5D",
-        "#512D1F",
-        "#64492F"
-      ],
-      "suhu": "netral",
-      "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:16.663624+07:00"
-    },
-    {
-      "id": "20260701-18",
-      "title": "Elegansi dalam Kesederhanaan",
-      "source": "Tumblr",
-      "author": "itscolossal",
-      "link": "https://links.thisiscolossal.com/post/819979148521078784",
-      "image": "https://64.media.tumblr.com/2124b40e217a8bf63a5e6c16eaac9b50/41177c00301cc3fd-aa/s640x960/74b0408f4088e74c9298b3feee85da2d54298267.jpg",
-      "kategori": "digital imaging",
-      "tingkat": "lanjut",
       "teori": "Teori Warna Monokromatik",
       "breakdown": [
         {
-          "label": "TEKNIK",
-          "text": "Teknik yang digunakan di sini adalah penumpukan elemen grafis di atas foto. Gambar patung ini mungkin merupakan foto polos yang kemudian diberi sentuhan grafis dengan menambahkan teks. Efeknya memberikan kesan modern dan artistik."
+          "label": "FONT",
+          "text": "Font sans-serif digunakan untuk nama brand 'NIVEA MEN' karena kesan modern dan bersih. Font yang sama digunakan untuk detail produk seperti 'SENSITIVE' dan 'ORIGINALS' untuk konsistensi visual. Font ini cocok untuk brand yang ingin tampil profesional dan mudah dibaca."
         },
         {
           "label": "WARNA",
-          "text": "Warna utama yang digunakan adalah gradasi cokelat, dari gelap ke terang. Ini menciptakan kesan hangat dan elegan. Warna monokromatik ini juga memberikan kesan kesederhanaan dan konsistensi."
+          "text": "Warna biru dominan digunakan untuk menciptakan kesan tenang dan percaya diri. Warna biru yang berbeda gelap-terang digunakan untuk membedakan antara produk dan detail, membuat katalog terlihat rapi dan mudah diikuti. Skema monokromatik ini membuat produk terlihat profesional dan mudah dikenali."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Layout katalog ini menggunakan sistem susunan yang sederhana dengan produk diletakkan secara diagonal. Ruang kosong yang cukup membuat produk terlihat menonjol dan mudah dilihat. Konsistensi dalam penempatan label dan detail membuat katalog ini enak dijelajahi."
+        }
+      ],
+      "pelajaran": "Pilih warna dan font yang konsisten untuk menciptakan identitas brand yang kuat dan mudah dikenali.",
+      "palette": [
+        "#3372B0",
+        "#4C76AC",
+        "#A8AAAF",
+        "#121627"
+      ],
+      "suhu": "sejuk",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:08.577600+07:00"
+    },
+    {
+      "id": "20260702-6",
+      "title": "Efek 3D pada Tipografi",
+      "source": "Tumblr",
+      "author": "typeverything",
+      "link": "https://archive.typeverything.com/post/183159963873",
+      "image": "https://64.media.tumblr.com/bac6e40dc73feddb31ed1fceff0bd483/tumblr_pltv2eKzl91sfggrfo1_500.png",
+      "kategori": "poster",
+      "tingkat": "lanjut",
+      "teori": "Prinsip Gestalt",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Kata 'STROKES' menggunakan font 3D yang unik dengan efek pencahayaan, membuat tampilannya seperti timbul. Font ini dipilih untuk menekankan kesan artistik dan modern, cocok untuk acara atau brand yang ingin tampil beda."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna putih dan abu-abu yang dominan menciptakan kesan minimalis dan bersih. Warna netral ini membantu fokus pada bentuk dan tekstur tipografi 3D, membuatnya menarik perhatian tanpa terlalu mencolok."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Titik fokus utama adalah kata 'STROKES' yang terletak di tengah, dengan komposisi simetris yang membuat mata jatuh ke tengah. Hierarki ukuran teks yang jelas dan ruang kosong yang efektif menambah kesan lapang dan tidak ramai."
+        }
+      ],
+      "pelajaran": "Kamu bisa menciptakan efek visual yang kuat dengan memanfaatkan prinsip desain seperti Gestalt dan memainkan elemen tipografi 3D untuk menarik perhatian.",
+      "palette": [
+        "#DCDDE2",
+        "#9EA4B0",
+        "#B7BAC4",
+        "#525F6D"
+      ],
+      "suhu": "netral",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:12.728346+07:00"
+    },
+    {
+      "id": "20260702-7",
+      "title": "Typeverything: New typeface alert! Introducing Getty!",
+      "source": "Tumblr",
+      "author": "typeverything",
+      "link": "https://archive.typeverything.com/post/758247624182743041",
+      "image": "https://64.media.tumblr.com/c3c1f244e09a3f1ec7911e3e35283864/f499ff812d546d45-1e/s640x960/89fe02d5835f7413d109da7c55ec80ab7290053e.png",
+      "kategori": "poster",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Di poster, font adalah senjata utama. Serif berat atau display font tebal → langsung bikin orang berhenti. Tapi yang lebih penting: font dipilih karena 'karakternya' cocok sama brand/pesan-nya. Brand musik yang raw & urban pilih condensed bold karena terasa agresif & energik. Brand premium pilih thin serif karena terasa eksklusif. Perhatiin kata mana yang digedein — itu yang brand mau kamu ingat duluan."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama hijau (kesan: segar, alami, menenangkan). Dipasangkan dengan warna netral putih/krem — kombinasi warna + netral ini bikin hijau makin menonjol, hasilnya bersih dan tidak berantakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Poster yang efektif punya satu titik gravitasi — mata langsung tau mau lihat ke mana. Bisa headline yang super gede, bisa gambar tunggal yang kuat. Whitespace bukan 'ruang kosong yang sia-sia', tapi senjata buat bikin elemen utama makin menonjol. Coba bold asimetris: taruh elemen utama di sepertiga layar, sisanya ruang napas."
+        }
+      ],
+      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
+      "palette": [
+        "#92A058",
+        "#F8F9F4",
+        "#CAD1AE",
+        "#B1BB87"
+      ],
+      "suhu": "hangat",
+      "ai": "template",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:15.600796+07:00"
+    },
+    {
+      "id": "20260702-8",
+      "title": "Komposisi Abstrak Warna-Warni",
+      "source": "Tumblr",
+      "author": "designersof",
+      "link": "https://designersof.tumblr.com/post/756719575921491968",
+      "image": "https://64.media.tumblr.com/1da5ff3e00fa02dc9563aaf95837354f/tumblr_p35tuvba8Z1qcq8vao1_500.png",
+      "kategori": "poster",
+      "tingkat": "lanjut",
+      "teori": "Teori Warna",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Tidak ada teks yang signifikan dalam gambar ini, jadi tidak ada analisis font yang dapat dilakukan."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna dominan putih/krem memberikan kesan bersih dan minimalis. Warna-warna cerah seperti biru, hijau, oranye, dan abu-abu menambahkan kontras yang menarik dan membuat mata tertarik. Kombinasi warna ini menciptakan mood yang ceria dan dinamis."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Titik fokus utama jatuh pada bentuk-bentuk abstrak berwarna cerah. Komposisi asimetris dengan penempatan elemen yang dinamis menciptakan kesan yang berani dan menarik. Penggunaan ruang kosong yang efektif membuat setiap elemen menonjol."
+        }
+      ],
+      "pelajaran": "Pelajaran yang bisa diambil adalah pentingnya kontras warna dan komposisi asimetris dalam menciptakan desain yang menarik dan dinamis.",
+      "palette": [
+        "#F3F3F2",
+        "#131313",
+        "#0EC4FA",
+        "#74EA48"
+      ],
+      "suhu": "netral",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:21.818896+07:00"
+    },
+    {
+      "id": "20260702-9",
+      "title": "Tas Unik MoMA",
+      "source": "Tumblr",
+      "author": "typeverything",
+      "link": "https://archive.typeverything.com/post/758341214392172544",
+      "image": "https://64.media.tumblr.com/56eb04374a772547aff568dca24fedd3/7190cf6b5fdc0ecf-99/s640x960/a434ccc7835dc1551f28acab4cdd02fd17dd61b2.jpg",
+      "kategori": "poster",
+      "tingkat": "lanjut",
+      "teori": "Prinsip Repitisi",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Font yang digunakan untuk teks 'The Museum of Modern Art' adalah sans-serif sederhana, mungkin seperti Futura atau Helvetica. Font ini dipilih karena simpel, mudah dibaca, dan cocok untuk brand yang modern dan artistik seperti MoMA. Ukuran font yang tidak terlalu besar juga membuat teks ini tidak mengganggu pola titik-titik yang dominan."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama tas adalah krem, yang bersih dan minimalis. Warna hitam digunakan untuk pola titik-titik, menciptakan kontras yang kuat. Warna teks 'The Museum of Modern Art' adalah oranye, yang menambahkan sentuhan warna dan membuat teks ini menonjol. Warna-warna ini menciptakan kesan modern dan artistik."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Titik fokus utama adalah pola titik-titik hitam yang berulang. Ukuran teks 'The Museum of Modern Art' lebih kecil dan ditempatkan di bagian bawah, menciptakan hierarki visual yang jelas. Komposisi ini asimetris namun berani, dengan ruang kosong yang efektif digunakan untuk menekankan pola titik-titik."
+        }
+      ],
+      "pelajaran": "Kamu bisa membuat desain yang menarik dengan menggunakan prinsip repetisi dan kontras warna yang kuat.",
+      "palette": [
+        "#F3F3EF",
+        "#0F1112",
+        "#A5A399",
+        "#5F605C"
+      ],
+      "suhu": "netral",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:25.820810+07:00"
+    },
+    {
+      "id": "20260702-10",
+      "title": "Ilustrasi Malam Halloween yang Ceria",
+      "source": "Tumblr",
+      "author": "designersof",
+      "link": "https://designersof.tumblr.com/post/773404555026317312",
+      "image": "https://64.media.tumblr.com/77460480ee13e887d191fa283b980247/tumblr_py17fazBDI1qcq8vao1_500.jpg",
+      "kategori": "poster",
+      "tingkat": "mudah",
+      "teori": "Teori Warna",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Gambar ini tidak menampilkan teks, sehingga tidak ada analisis font yang dapat dilakukan."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna dominan biru tua pada langit malam dikombinasikan dengan warna-warna cerah pada bangunan, seperti ungu, merah muda, dan abu-abu. Warna-warna ini menciptakan kontras yang menarik dan membangun mood malam Halloween yang ceria dan meriah."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Titik fokus utama adalah bangunan-bangunan yang berwarna-warni dan dihiasi dengan dekorasi Halloween. Hierarki ukuran elemen visual tidak terlihat karena tidak ada teks, namun komposisi bangunan dan dekorasi Halloween menciptakan layout yang simetris dan menarik."
+        }
+      ],
+      "pelajaran": "Pelajaran yang bisa dipetik adalah pentingnya kontras warna dan komposisi yang seimbang dalam menciptakan visual yang menarik.",
+      "palette": [
+        "#2F476A",
+        "#9F9DA7",
+        "#D7A79E",
+        "#E5CFA8"
+      ],
+      "suhu": "sejuk",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:28.776459+07:00"
+    },
+    {
+      "id": "20260702-11",
+      "title": "Eksplorasi Tipografi Delwe",
+      "source": "Tumblr",
+      "author": "typeverything",
+      "link": "https://archive.typeverything.com/post/780742336505380864",
+      "image": "https://64.media.tumblr.com/7c43de8aae143d0730c1621ecae1fbff/7674e7cde19086d4-aa/s640x960/5dfc9dfde42cdabdfe38a9ac0eaa1ce973a74abb.png",
+      "kategori": "poster",
+      "tingkat": "lanjut",
+      "teori": "Hierarki Visual",
+      "breakdown": [
+        {
+          "label": "FONT",
+          "text": "Kata 'Delwe' di sini menggunakan font sans serif dengan variasi berat yang berbeda-beda. Ukuran font yang besar dan berat font yang semakin mengecil seiring ke bawah menunjukkan hierarki visual yang jelas. Font ini mungkin dipilih untuk menampilkan fleksibilitas dan variasi dalam satu keluarga font, cocok untuk desain yang membutuhkan penekanan pada teks."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna biru tua dominan dengan variasi gradasi warna biru muda hingga tua menciptakan kesan yang tenang dan profesional. Warna ini mendukung tema yang mungkin berhubungan dengan teknologi atau desain, serta menarik perhatian dengan kontras yang cukup."
+        },
+        {
+          "label": "LAYOUT",
+          "text": "Titik fokus utama jatuh pada kata 'Delwe' yang terbesar di bagian atas. Hierarki ukuran teks yang menurun seiring ke bawah menciptakan kesan yang rapi dan terstruktur. Komposisi simetris dan penggunaan ruang kosong yang efektif membuat desain ini terlihat kalem dan mudah dipahami."
+        }
+      ],
+      "pelajaran": "Pelajaran yang bisa diambil adalah pentingnya hierarki visual dan variasi font dalam menciptakan desain yang menarik dan terstruktur.",
+      "palette": [
+        "#1C2741",
+        "#16213C",
+        "#ECEDEF",
+        "#9A9FAB"
+      ],
+      "suhu": "sejuk",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:31.108137+07:00"
+    },
+    {
+      "id": "20260702-12",
+      "title": "Landing Page Agentic dengan Desain Futuristik",
+      "source": "One Page Love",
+      "author": "",
+      "link": "https://onepagelove.com/shopify-editions-spring-2026",
+      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-shopify-editions-1782742238732-desktop.jpg",
+      "kategori": "UI/UX",
+      "tingkat": "lanjut",
+      "teori": "Prinsip Visual Hierarchy",
+      "breakdown": [
+        {
+          "label": "LAYOUT",
+          "text": "Layoutnya pake hero section yang kuat dengan gambar latar yang futuristik dan teks yang berani. Navigasinya sederhana dengan beberapa opsi di bagian bawah. Whitespace-nya juga cukup buat bikin tampilan gak sesak dan enak dilihat."
         },
         {
           "label": "FONT",
-          "text": "Tidak ada teks yang terlihat dalam gambar ini, jadi tidak ada analisis font yang dapat dilakukan."
+          "text": "Font yang dipilih untuk headline 'Everywhere' dan 'Agentic' ini sans-serif yang clean dan modern, mungkin Open Sans atau serupa, yang bikin kesan futuristik dan cocok buat brand yang ingin tampil beda. Sementara teks body-nya mungkin pake font yang lebih sederhana dan mudah dibaca."
         },
         {
-          "label": "KOMPOSISI",
-          "text": "Komposisi gambar ini sangat sederhana dengan patung sebagai fokus utama. Penempatan patung di tengah frame memberikan kesan seimbang dan harmonis. Mata langsung jatuh pada patung karena penempatannya yang sentral."
+          "label": "WARNA",
+          "text": "Warna utamanya gelap dengan aksen warna yang kontras, mungkin ungu atau pink, yang bikin tampilan futuristik dan menarik. Kontras teks dan background-nya juga cukup buat nyaman dibaca."
+        },
+        {
+          "label": "USABILITY",
+          "text": "CTA 'Start for free'-nya cukup menonjol dan gampang ketemu. Hierarkinya jelas, pengguna langsung tahu harus ngapain duluan. Alurnya juga gampang ditebak, jadi pengguna gak bingung."
         }
       ],
-      "pelajaran": "Kamu bisa menciptakan kesan artistik dengan menggabungkan elemen grafis dan foto, serta menggunakan teori warna monokromatik untuk kesan yang konsisten.",
+      "pelajaran": "Pastikan kamu memiliki hero section yang kuat dan CTA yang jelas untuk meningkatkan konversi pada landing page.",
       "palette": [
-        "#2B190E",
-        "#472D1D",
-        "#A5A29C",
-        "#CECDC8"
+        "#5E5A60",
+        "#23241D",
+        "#9D9499",
+        "#47342C"
+      ],
+      "suhu": "netral",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:34.158696+07:00"
+    },
+    {
+      "id": "20260702-13",
+      "title": "AlterG Resources",
+      "source": "One Page Love",
+      "author": "",
+      "link": "https://onepagelove.com/alterg-resources",
+      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-master-5.jpg",
+      "kategori": "UI/UX",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "LAYOUT",
+          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
+        },
+        {
+          "label": "FONT",
+          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Sekundernya merah yang berseberangan dengan putih/krem (komplementer) — kontras kuat ini bikin desain 'pop' dan berani. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "USABILITY",
+          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
+        }
+      ],
+      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
+      "palette": [
+        "#F6F7F8",
+        "#AC9797",
+        "#946E63",
+        "#CEAE9B"
+      ],
+      "suhu": "netral",
+      "ai": "template",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:35.645025+07:00"
+    },
+    {
+      "id": "20260702-14",
+      "title": "Frontend Supply™",
+      "source": "One Page Love",
+      "author": "",
+      "link": "https://onepagelove.com/frontend-supply",
+      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/07/opl-screenshot-frontend-supply-1782919258816-desktop.jpg",
+      "kategori": "UI/UX",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "LAYOUT",
+          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
+        },
+        {
+          "label": "FONT",
+          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Keduanya warna netral (putih/krem & abu-abu) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "USABILITY",
+          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
+        }
+      ],
+      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
+      "palette": [
+        "#FBFBFB",
+        "#9E9E9E",
+        "#5F5F5F",
+        "#212122"
+      ],
+      "suhu": "netral",
+      "ai": "template",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:37.289700+07:00"
+    },
+    {
+      "id": "20260702-15",
+      "title": "Monolog",
+      "source": "One Page Love",
+      "author": "",
+      "link": "https://onepagelove.com/monolog",
+      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/06/opl-screenshot-monolog-1782314509884-desktop.jpg",
+      "kategori": "UI/UX",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "LAYOUT",
+          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
+        },
+        {
+          "label": "FONT",
+          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama hitam (kesan: dramatis, premium, serius). Keduanya warna netral (hitam & abu-abu) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "USABILITY",
+          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
+        }
+      ],
+      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
+      "palette": [
+        "#151413",
+        "#565956",
+        "#8B8B86",
+        "#82827D"
+      ],
+      "suhu": "netral",
+      "ai": "template",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:38.623752+07:00"
+    },
+    {
+      "id": "20260702-16",
+      "title": "Desain Landing Page Émergence yang Ciamik",
+      "source": "One Page Love",
+      "author": "",
+      "link": "https://onepagelove.com/rendez-vous-franceclat",
+      "image": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/07/opl-screenshot-rendez-vous-1782918879470-desktop.jpg",
+      "kategori": "UI/UX",
+      "tingkat": "lanjut",
+      "teori": "Teori Warna Gradasi",
+      "breakdown": [
+        {
+          "label": "LAYOUT",
+          "text": "Layoutnya pake grid yang simpel, dengan hero section besar di atas, trus ada teks overlay yang jelas. Whitespace-nya juga pas, jadi gak sesak. Navigasinya ada di pojok kanan atas, jadi gampang ketemu."
+        },
+        {
+          "label": "FONT",
+          "text": "Font 'ÉMERGENCE' pakai typography yang unik, dengan gaya sans-serif yang modern dan berani. Ini cocok buat headline karena bikin kesan yang kuat. Sedangkan teks body-nya pake font sans-serif yang lebih sederhana, jadi gak bikin bingung."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama gradasi oranye-pink yang hangat dan berenergi, cocok buat tema 'émergence'. Kontras teksnya juga oke, jadi gampang dibaca. Warna aksen abu-abu buat background teksnya juga pas, bikin teksnya menonjol."
+        },
+        {
+          "label": "USABILITY",
+          "text": "CTA-nya langsung kelihatan di hero section, jadi gampang ketemu. Hierarkinya juga jelas, jadi pengguna tahu harus ngapain duluan. Alurnya juga gampang ditebak, jadi gak bikin bingung."
+        }
+      ],
+      "pelajaran": "Pastikan kamu pake warna yang konsisten dan kontras yang cukup buat bikin desainmu enak dilihat dan dipakai.",
+      "palette": [
+        "#F45C31",
+        "#5D5E5C",
+        "#979A9C",
+        "#E12048"
       ],
       "suhu": "hangat",
       "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:21.347220+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:41.581349+07:00"
     },
     {
-      "id": "20260701-19",
-      "title": "Animated Photos of Julien DouvierSee the whole set of photos...",
+      "id": "20260702-17",
+      "title": "Speedcurve Performance Analytics",
+      "source": "Unsplash",
+      "author": "Luke Chesser",
+      "link": "https://unsplash.com/photos/graphs-of-performance-analytics-on-a-laptop-screen-JKUTrJ4vK00",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkYXNoYm9hcmQlMjBhbmFseXRpY3MlMjB1aXxlbnwwfDB8fHwxNzgyOTkyNjIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "kategori": "UI/UX",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "LAYOUT",
+          "text": "UI yang enak dipandang biasanya pakai grid rapi + whitespace yang lega. Mata dituntun dari atas (hero/headline) turun ke konten lalu ke tombol aksi. Jangan jejalin semua di satu layar — kasih ruang napas antar seksi biar pengguna gak overwhelmed. Konsistensi jarak (spacing) antar elemen itu yang bikin keliatan rapi & profesional."
+        },
+        {
+          "label": "FONT",
+          "text": "Di UI, font itu suara brand. Headline sering pakai display/serif berkarakter biar hero section langsung 'ngomong' & punya kepribadian; teks body hampir selalu sans-serif bersih yang gampang kebaca di layar. Yang penting: ukuran headline vs body harus beda jelas (hierarki), dan jangan kebanyakan jenis font — 2 cukup. Font yang konsisten bikin produk terasa 'jadi' & profesional."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama toska (kesan: sejuk, modern, menyegarkan). Dipasangkan dengan warna netral putih/krem — kombinasi warna + netral ini bikin toska makin menonjol, hasilnya bersih dan tidak berantakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "USABILITY",
+          "text": "Yang bikin UI enak dipakai itu kejelasan: tombol aksi utama harus paling nonjol, teks gampang kebaca, dan alurnya gampang ditebak. Kalau kamu bingung 'abis ini ngapain', berarti desainnya kurang jelas. Semakin gak mikir buat makainya, semakin bagus."
+        }
+      ],
+      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
+      "palette": [
+        "#050C0B",
+        "#F9F1F3",
+        "#A0A59A",
+        "#5A6456"
+      ],
+      "suhu": "netral",
+      "ai": "template",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:45.775288+07:00"
+    },
+    {
+      "id": "20260702-18",
+      "title": "Gambar tidak tersedia",
       "source": "Tumblr",
       "author": "designcloud",
-      "link": "https://designcloud.tumblr.com/post/133478363999",
-      "image": "https://64.media.tumblr.com/797608e7a7e6f3d5db5a62c1fa60a8f8/tumblr_ny0wytLbXg1r8tkaro7_500.jpg",
+      "link": "https://designcloud.tumblr.com/post/124030584814",
+      "image": "https://64.media.tumblr.com/440b2168da48bcd316791e7b043f57c8/tumblr_nra90zh0iu1qkxrtro1_500.png",
+      "kategori": "digital imaging",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "TEKNIK",
+          "text": "Gambar tidak dapat dianalisis karena tidak ada gambar yang ditampilkan."
+        },
+        {
+          "label": "WARNA",
+          "text": "Gambar tidak dapat dianalisis karena tidak ada gambar yang ditampilkan."
+        },
+        {
+          "label": "FONT",
+          "text": "Gambar tidak dapat dianalisis karena tidak ada gambar yang ditampilkan."
+        },
+        {
+          "label": "KOMPOSISI",
+          "text": "Gambar tidak dapat dianalisis karena tidak ada gambar yang ditampilkan."
+        }
+      ],
+      "pelajaran": "Tidak ada pelajaran yang bisa dipetik karena gambar tidak tersedia.",
+      "palette": [
+        "#1C1B14",
+        "#685D4F",
+        "#554E37",
+        "#F6F4F0"
+      ],
+      "suhu": "netral",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:49.192984+07:00"
+    },
+    {
+      "id": "20260702-19",
+      "title": "This is an insane mosaic at the national cathedral in...",
+      "source": "Tumblr",
+      "author": "cjwho",
+      "link": "https://www.cjwho.com/post/166397736315",
+      "image": "https://64.media.tumblr.com/2c8ff7bfdefb0dcc06c0953bb2a01bba/tumblr_oxtpdd9SHL1qzd1nwo1_500.jpg",
       "kategori": "digital imaging",
       "tingkat": "mudah",
       "teori": "-",
@@ -731,7 +731,7 @@
         },
         {
           "label": "WARNA",
-          "text": "Warna utama hitam (kesan: dramatis, premium, serius). Keduanya warna netral (hitam & abu-abu) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+          "text": "Warna utama oranye (kesan: hangat, ramah, antusias). Sekundernya juga oranye tapi beda gelap-terang — ini skema monokromatik (satu warna saja), aman & rapi untuk pemula. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
         },
         {
           "label": "FONT",
@@ -744,23 +744,23 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#1C1C1C",
-        "#9F9F9F",
-        "#585858",
-        "#CDCDCD"
+        "#211107",
+        "#967158",
+        "#A7A198",
+        "#52321B"
       ],
-      "suhu": "netral",
+      "suhu": "hangat",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:22.682576+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:50.558406+07:00"
     },
     {
-      "id": "20260701-20",
-      "title": "Architecture can be something special. #ikea #vienna...",
+      "id": "20260702-20",
+      "title": "Butcher Billy Bullies BanksySee the whole set here:...",
       "source": "Tumblr",
-      "author": "cjwho",
-      "link": "https://www.cjwho.com/post/663133581106888705",
-      "image": "https://64.media.tumblr.com/818f55b2e7f3029bcbe7e49e4959eb15/2ab766cf947b93e8-fe/s500x750/8e4ce4c72bb646e240e2dbc890ca329a90c71d43.jpg",
+      "author": "designcloud",
+      "link": "https://designcloud.tumblr.com/post/126032999019",
+      "image": "https://64.media.tumblr.com/dc1ac74fcfb113839d50af32b0882f16/tumblr_nso6mxFr4y1r8tkaro1_500.jpg",
       "kategori": "digital imaging",
       "tingkat": "mudah",
       "teori": "-",
@@ -784,23 +784,23 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#605F5F",
-        "#969598",
-        "#9CACC9",
-        "#333330"
+        "#929191",
+        "#646360",
+        "#1B2125",
+        "#8B847B"
       ],
       "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:24.055340+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:52.016383+07:00"
     },
     {
-      "id": "20260701-21",
-      "title": "Sour Soda Studio Depicts a Saccharine World Where Humans Have Lost Control",
+      "id": "20260702-21",
+      "title": "Willie Cole Traverses &amp;lsquo;Mind, Body, and Soul&amp;rsquo; in Expressive Mixed Media",
       "source": "Tumblr",
       "author": "itscolossal",
-      "link": "https://links.thisiscolossal.com/post/820219436220006400",
-      "image": "https://64.media.tumblr.com/0a56a460024d79cce7aac2cd90da4c44/d66348ddec77e084-5e/s640x960/a844fe11a6c88e443a87dfb352e0877c48a811ed.jpg",
+      "link": "https://links.thisiscolossal.com/post/820246961362026496",
+      "image": "https://64.media.tumblr.com/f2749f5ded250bf17c815ef30f5566e9/5787000234d757ee-50/s640x960/9f06d43498496f67f422d86d1213929ee371e79e.jpg",
       "kategori": "digital imaging",
       "tingkat": "mudah",
       "teori": "-",
@@ -811,7 +811,7 @@
         },
         {
           "label": "WARNA",
-          "text": "Warna utama hijau (kesan: segar, alami, menenangkan). Dipasangkan dengan warna netral putih/krem — kombinasi warna + netral ini bikin hijau makin menonjol, hasilnya bersih dan tidak berantakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Dipadukan putih/krem dengan oranye — kontras sedang yang memberi variasi tanpa saling tabrakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
         },
         {
           "label": "FONT",
@@ -824,63 +824,23 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#6DBA83",
-        "#DFECF3",
-        "#68A575",
-        "#9F9CA4"
+        "#D9D8D9",
+        "#AE8E5B",
+        "#956B34",
+        "#97754A"
       ],
-      "suhu": "sejuk",
+      "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:25.400339+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:53.291428+07:00"
     },
     {
-      "id": "20260701-22",
-      "title": "La Loica and La Tagua by Croxatto and Opazo Architects |...",
+      "id": "20260702-22",
+      "title": "Enjoy by Camilo Rojas",
       "source": "Tumblr",
-      "author": "cjwho",
-      "link": "https://www.cjwho.com/post/674200193915338752",
-      "image": "https://64.media.tumblr.com/866c70edb1f78529c11d593e20303504/346fad915def0a48-f0/s500x750/5ef98acd7d0cdc3003dcb3cf4fb69870301ab88d.jpg",
-      "kategori": "digital imaging",
-      "tingkat": "mudah",
-      "teori": "-",
-      "breakdown": [
-        {
-          "label": "TEKNIK",
-          "text": "Di digital imaging, tekniknya bisa macem-macem: halftone (foto jadi titik-titik/dots) buat kesan retro & pop art; duotone (foto cuma pakai 2 warna) buat kesan bold & modern; compositing (gabungin beberapa elemen berbeda) butuh perhatian ke pencahayaan & bayangan biar nyatu; color pop (1 warna dibiarkan, sisanya hitam-putih) buat drama fokus. Yang bikin hasilnya bagus: semua elemen terasa 'satu dunia', bukan tempelan."
-        },
-        {
-          "label": "WARNA",
-          "text": "Warna utama kuning (kesan: ceria, optimis, penuh energi). Sekundernya biru yang berseberangan dengan kuning (komplementer) — kontras kuat ini bikin desain 'pop' dan berani. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
-        },
-        {
-          "label": "FONT",
-          "text": "Font di digital imaging sering jadi elemen desain itu sendiri, bukan cuma label. Condensed bold yang super gede di atas foto → brand yang mau terasa powerful & langsung nendang. Thin italic yang halus → brand yang mau terasa poetic & artistik. Yang penting: perhatiin apakah font-nya 'lawan' fotonya (kontras = drama) atau 'nyatu' sama fotonya (harmoni = elegan) — itu pilihan desain yang disengaja."
-        },
-        {
-          "label": "KOMPOSISI",
-          "text": "Di digital imaging, komposisi bukan cuma soal foto — tapi soal bagaimana foto, teks, dan elemen grafis bekerja bareng. Foto bisa jadi background penuh, atau cuma sebagian yang 'dipotong' buat dipaduin sama grafis. Teks yang gede bisa tumpang tindih sama wajah/subjek foto (ini disengaja buat kesan editorial yang bold). Tanya: apakah mata kamu jatuh ke foto dulu atau ke teks dulu? Itu nunjukin mana yang mau diutamakan brand-nya."
-        }
-      ],
-      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
-      "palette": [
-        "#24210D",
-        "#9496B1",
-        "#DBD4DC",
-        "#B1B2C8"
-      ],
-      "suhu": "hangat",
-      "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:26.866908+07:00"
-    },
-    {
-      "id": "20260701-23",
-      "title": "Annalise Gratovich&amp;rsquo;s Life-Size Woodcuts Meld Nature, Memory, and Ukrainian Herit",
-      "source": "Tumblr",
-      "author": "itscolossal",
-      "link": "https://links.thisiscolossal.com/post/819583279669919744",
-      "image": "https://64.media.tumblr.com/ca1956f7ef8b3955b4b17cbfcda6249b/b3cc5701b46b5638-8d/s640x960/4d90412c59864eecdc3a7cc6b9548d59f5d6bd0a.jpg",
+      "author": "designcloud",
+      "link": "https://designcloud.tumblr.com/post/117576816204",
+      "image": "https://64.media.tumblr.com/521a19b4b451e960e83f3588c1d9546d/tumblr_nnhoasF1J11qkxrtro1_500.jpg",
       "kategori": "digital imaging",
       "tingkat": "mudah",
       "teori": "-",
@@ -904,155 +864,107 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#F6F5F2",
-        "#605D59",
-        "#32302F",
-        "#9F9A9A"
+        "#EBE8E3",
+        "#ADA7A0",
+        "#CDC4BA",
+        "#C4BBB1"
       ],
       "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:28.271498+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:54.663018+07:00"
     },
     {
-      "id": "20260701-24",
-      "title": "Momen Kontemplasi",
-      "source": "Flickr",
-      "author": "",
-      "link": "https://www.flickr.com/photos/abbsound/55367673259/",
-      "image": "https://live.staticflickr.com/65535/55367673259_be9907c20f_b.jpg",
-      "kategori": "photography",
-      "tingkat": "lanjut",
-      "teori": "Teori Chiaroscuro",
-      "breakdown": [
-        {
-          "label": "ANGLE",
-          "text": "Foto ini diambil dari sudut eye-level, membuat subjek terkesan akrab dan dekat dengan penonton. Jaraknya juga cukup intim, fokus pada ekspresi wajah subjek."
-        },
-        {
-          "label": "CAHAYA",
-          "text": "Cahaya di foto ini berasal dari sumber alami atau buatan yang lembut, menciptakan efek kontras yang halus pada wajah subjek. Arah cahaya dari depan membuat wajah subjek terlihat jelas."
-        },
-        {
-          "label": "WARNA",
-          "text": "Foto ini menggunakan palet monokrom dengan dominasi warna hitam dan putih, menciptakan kesan minimalis dan elegan. Kesan film/analog terlihat dari grain yang halus dan tone yang natural."
-        },
-        {
-          "label": "KOMPOSISI",
-          "text": "Komposisi foto ini menggunakan rule of thirds, dengan subjek ditempatkan di tengah frame. Mata diarahkan ke ekspresi wajah subjek, menciptakan kesan kontemplasi."
-        },
-        {
-          "label": "MOMEN",
-          "text": "Momen ini terlihat spontan, namun ekspresi wajah subjek yang terkesan kontemplatif membuat foto ini menarik. Kesan sinematik terlihat dari penggunaan cahaya dan komposisi yang dramatis."
-        }
-      ],
-      "pelajaran": "Pelajaran konkret dari foto ini adalah pentingnya penggunaan cahaya yang lembut dan komposisi yang tepat untuk menciptakan kesan dramatis pada subjek.",
-      "palette": [
-        "#CFCFCF",
-        "#1D1D1D",
-        "#A7A7A7",
-        "#5E5E5E"
-      ],
-      "suhu": "netral",
-      "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:33.285068+07:00"
-    },
-    {
-      "id": "20260701-25",
-      "title": "Hanfu girls",
-      "source": "Flickr",
-      "author": "",
-      "link": "https://www.flickr.com/photos/149221707@N03/55360686420/",
-      "image": "https://live.staticflickr.com/65535/55360686420_29a2748978_b.jpg",
-      "kategori": "photography",
+      "id": "20260702-23",
+      "title": "What Happens When Architectural Designer Tries Baking Cakes by...",
+      "source": "Tumblr",
+      "author": "cjwho",
+      "link": "https://www.cjwho.com/post/166567458260",
+      "image": "https://64.media.tumblr.com/1a3f9818b6ac61c141d777477f732563/tumblr_oy2jhrSo1b1qzd1nwo4_500.jpg",
+      "kategori": "digital imaging",
       "tingkat": "mudah",
       "teori": "-",
       "breakdown": [
         {
-          "label": "ANGLE",
-          "text": "Angle nentuin gimana kita 'memandang' subjek. Low angle (kamera di bawah, ndongak) bikin subjek keliatan gagah, berkuasa, dominan. Eye-level (sejajar mata) kesannya akrab, jujur, setara. High angle (dari atas, nunduk) bikin subjek keliatan kecil, rentan, atau ngasih konteks lingkungan. Makin deket jarak kameranya, makin intim & berasa emosinya."
-        },
-        {
-          "label": "CAHAYA",
-          "text": "Dari warnanya yang condong HANGAT, cahayanya kemungkinan dari matahari sore/golden hour atau lampu kekuningan — kesannya cozy & intim. Cahaya itu 'nyawa' foto. Cahaya dari samping bikin tekstur & dimensi keluar, dari depan rata bikin bersih tapi flat, dari belakang (backlight) bikin siluet atau rim light yang dramatis. Golden hour (sore) hangat & lembut; siang terik bikin bayangan keras & kontras tinggi. Lihat arah bayangan buat tau dari mana cahayanya datang."
+          "label": "TEKNIK",
+          "text": "Di digital imaging, tekniknya bisa macem-macem: halftone (foto jadi titik-titik/dots) buat kesan retro & pop art; duotone (foto cuma pakai 2 warna) buat kesan bold & modern; compositing (gabungin beberapa elemen berbeda) butuh perhatian ke pencahayaan & bayangan biar nyatu; color pop (1 warna dibiarkan, sisanya hitam-putih) buat drama fokus. Yang bikin hasilnya bagus: semua elemen terasa 'satu dunia', bukan tempelan."
         },
         {
           "label": "WARNA",
-          "text": "Warna utama oranye (kesan: hangat, ramah, antusias). Dipasangkan dengan warna netral putih/krem — kombinasi warna + netral ini bikin oranye makin menonjol, hasilnya bersih dan tidak berantakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Dipadukan putih/krem dengan merah — kontras sedang yang memberi variasi tanpa saling tabrakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "FONT",
+          "text": "Font di digital imaging sering jadi elemen desain itu sendiri, bukan cuma label. Condensed bold yang super gede di atas foto → brand yang mau terasa powerful & langsung nendang. Thin italic yang halus → brand yang mau terasa poetic & artistik. Yang penting: perhatiin apakah font-nya 'lawan' fotonya (kontras = drama) atau 'nyatu' sama fotonya (harmoni = elegan) — itu pilihan desain yang disengaja."
         },
         {
           "label": "KOMPOSISI",
-          "text": "Lihat ke mana mata kamu jatuh pertama kali — itu titik fokusnya. Karya kuat biasanya naruh subjek di garis sepertiga (rule of thirds), bukan pas tengah, terus pakai garis atau ruang kosong buat ngarahin pandangan kamu."
-        },
-        {
-          "label": "MOMEN",
-          "text": "Foto yang 'kena' biasanya nangkep momen yang jujur — orang lagi ketawa lepas, ngelamun, atau adegan sehari-hari yang biasa aja tapi pas dibekukan jadi puitis. Tanya: apa yang lagi terjadi di sini, dan kenapa fotografer milih MOMEN ini? Momen candid (gak dibikin-bikin) sering kerasa lebih hidup & relatable daripada pose kaku. Kesan film/grain nambahin rasa nostalgia & nyata."
+          "text": "Di digital imaging, komposisi bukan cuma soal foto — tapi soal bagaimana foto, teks, dan elemen grafis bekerja bareng. Foto bisa jadi background penuh, atau cuma sebagian yang 'dipotong' buat dipaduin sama grafis. Teks yang gede bisa tumpang tindih sama wajah/subjek foto (ini disengaja buat kesan editorial yang bold). Tanya: apakah mata kamu jatuh ke foto dulu atau ke teks dulu? Itu nunjukin mana yang mau diutamakan brand-nya."
         }
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#B19D8F",
-        "#EEEAE9",
-        "#625E54",
-        "#A68A73"
+        "#E7E6E9",
+        "#9C5961",
+        "#B2A4AA",
+        "#C7BAC4"
       ],
-      "suhu": "hangat",
+      "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:35.745131+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:43:56.034825+07:00"
     },
     {
-      "id": "20260701-26",
-      "title": "Rebahan di Rumput",
+      "id": "20260702-24",
+      "title": "Momen Santai dengan Es Krim",
       "source": "Flickr",
       "author": "",
-      "link": "https://www.flickr.com/photos/emilianomassa/55365211019/",
-      "image": "https://live.staticflickr.com/65535/55365211019_b26cc3c673_b.jpg",
+      "link": "https://www.flickr.com/photos/zeezodean/55369435186/",
+      "image": "https://live.staticflickr.com/65535/55369435186_51dce3890f_b.jpg",
       "kategori": "photography",
-      "tingkat": "lanjut",
+      "tingkat": "mudah",
       "teori": "Rule of Thirds",
       "breakdown": [
         {
           "label": "ANGLE",
-          "text": "Kamu lihat, foto ini diambil dari sudut yang agak tinggi dan sedikit condong, bikin kesan intim dan akrab. Jaraknya juga deket banget, jadi terkesan seperti kita lagi ngobrol sama subjeknya. Efeknya, kita jadi merasa terhubung sama subjeknya."
+          "text": "Foto diambil dari sudut eye-level, membuat subjek terasa akrab dan santai. Jaraknya juga pas, tidak terlalu dekat atau jauh, sehingga kita bisa fokus pada ekspresi wajah dan aksi subjek."
         },
         {
           "label": "CAHAYA",
-          "text": "Cahayanya natural dan lembut, kayaknya dari samping atau belakang. Ini bikin bentuk tubuh dan wajah subjeknya kelihatan jelas, tapi juga ada sedikit bayangan yang bikin kesan depth. Cahaya yang soft ini juga bikin mood-nya jadi lebih santai dan damai."
+          "text": "Cahaya alami yang soft dan lembut, mungkin dari matahari, memberikan kesan yang natural dan tidak terlalu kontras. Ini membuat foto terasa lebih hidup dan tidak terlalu dramatis."
         },
         {
           "label": "WARNA",
-          "text": "Warna abu-abu dan hitam dominannya bikin kesan tenang dan minimalis. Ini juga bikin grain-nya kelihatan, yang sesuai dengan kesan film analog. Palet monokrom ini juga bikin subjeknya jadi fokus dan tidak ramai."
+          "text": "Warna dominan di sini adalah netral dengan sentuhan warna pastel dari es krim. Palet warna yang sederhana ini memberikan kesan yang minimalis dan tidak terlalu ramai, cocok untuk foto candid seperti ini."
         },
         {
           "label": "KOMPOSISI",
-          "text": "Framing-nya menggunakan rule of thirds, dengan subjeknya diletakkan di tengah dan sedikit off-center. Mata kita diarahkan ke wajah subjeknya, dan ruang di sekitarnya dipakai untuk bikin kesan luas dan tidak ramai. Ini juga bikin kita fokus ke subjeknya."
+          "text": "Komposisi foto ini menggunakan rule of thirds, dengan subjek ditempatkan di tengah dan tidak terlalu simetris. Mata kita diarahkan ke wajah subjek dan es krim yang dipegangnya, membuat kita fokus pada aksi dan ekspresi subjek."
         },
         {
           "label": "MOMEN",
-          "text": "Momennya spontan dan santai, kayak subjeknya lagi rebahan di rumput aja. Ceritanya jadi menarik karena kita bisa merasakan ketenangan dan kenyamanan subjeknya. Kesan sinematik-nya juga ada karena penggunaan cahaya dan komposisi yang pas."
+          "text": "Momen ini terasa sangat spontan dan candid, seperti subjek sedang menikmati es krim tanpa mempedulikan kamera. Kesan sinematiknya muncul karena kita bisa merasakan kesantaiannya melalui foto ini."
         }
       ],
-      "pelajaran": "Kamu bisa tiru penggunaan cahaya natural dan komposisi yang sederhana untuk bikin foto yang tenang dan minimalis, tapi tetap menarik.",
+      "pelajaran": "Untuk foto candid yang natural, coba gunakan cahaya alami dan komposisi yang sederhana, serta jangan ragu untuk mengambil momen spontan subjekmu!",
       "palette": [
-        "#5F5F5F",
-        "#252525",
-        "#959595",
-        "#CFCFCF"
+        "#272523",
+        "#D8D8DB",
+        "#5D564F",
+        "#473731"
       ],
       "suhu": "netral",
       "ai": "Groq",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:41.504153+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:44:02.178329+07:00"
     },
     {
-      "id": "20260701-27",
-      "title": "The Day I Changed The world.",
+      "id": "20260702-25",
+      "title": "6:00 a.m. in Baindbridge Island",
       "source": "Flickr",
       "author": "",
-      "link": "https://www.flickr.com/photos/neilmoralee/55365196800/",
-      "image": "https://live.staticflickr.com/65535/55365196800_fc2637d4a8_b.jpg",
+      "link": "https://www.flickr.com/photos/204703325@N05/55369644539/",
+      "image": "https://live.staticflickr.com/65535/55369644539_bed4747bfa_b.jpg",
       "kategori": "photography",
       "tingkat": "mudah",
       "teori": "-",
@@ -1080,23 +992,23 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#09090A",
-        "#5C5C5E",
-        "#9C9D9F",
-        "#DEDFE1"
+        "#202223",
+        "#5D5F5F",
+        "#9B9B97",
+        "#DDDCD7"
       ],
       "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:43.917444+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:44:03.496217+07:00"
     },
     {
-      "id": "20260701-28",
-      "title": "Tokyo streets",
-      "source": "Unsplash",
-      "author": "Denys Nevozhai",
-      "link": "https://unsplash.com/photos/streets-during-nighttime-D68ADLeMh5Q",
-      "image": "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwxfHxqYXBhbmVzZSUyMHN0cmVldCUyMHBob3RvZ3JhcGh5JTIwZmlsbXxlbnwwfDB8fHwxNzgyOTA4NTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "20260702-26",
+      "title": "trail dawg",
+      "source": "Flickr",
+      "author": "",
+      "link": "https://www.flickr.com/photos/manyfires/55363476323/",
+      "image": "https://live.staticflickr.com/65535/55363476323_aaeccfbee6_b.jpg",
       "kategori": "photography",
       "tingkat": "mudah",
       "teori": "-",
@@ -1111,7 +1023,7 @@
         },
         {
           "label": "WARNA",
-          "text": "Warna utama merah (kesan: berani, energik, penuh gairah). Sekundernya juga merah tapi beda gelap-terang — ini skema monokromatik (satu warna saja), aman & rapi untuk pemula. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+          "text": "Warna utama putih/krem (kesan: bersih, minimalis, lapang). Keduanya warna netral (putih/krem & hitam) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
         },
         {
           "label": "KOMPOSISI",
@@ -1124,23 +1036,67 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#221915",
-        "#4F261A",
-        "#604B2B",
-        "#EA0A06"
+        "#E3E2E1",
+        "#1E1C1F",
+        "#585F5C",
+        "#A29F9C"
       ],
       "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:48.982765+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:44:04.828345+07:00"
     },
     {
-      "id": "20260701-29",
-      "title": "japanese storefront with paper lantern",
-      "source": "Unsplash",
-      "author": "Shigeki Wakabayashi",
-      "link": "https://unsplash.com/photos/japanese-storefront-with-paper-lantern-6nuz52vsbWc",
-      "image": "https://images.unsplash.com/photo-1564284369929-026ba231f89b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODU0MzB8MHwxfHNlYXJjaHwyfHxqYXBhbmVzZSUyMHN0cmVldCUyMHBob3RvZ3JhcGh5JTIwZmlsbXxlbnwwfDB8fHwxNzgyOTA4NTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "20260702-27",
+      "title": "Potret Misterius di Sawah",
+      "source": "Flickr",
+      "author": "",
+      "link": "https://www.flickr.com/photos/desperatejohn/55370063005/",
+      "image": "https://live.staticflickr.com/65535/55370063005_cd7cc40421_b.jpg",
+      "kategori": "photography",
+      "tingkat": "lanjut",
+      "teori": "Teori Chiaroscuro",
+      "breakdown": [
+        {
+          "label": "ANGLE",
+          "text": "Foto ini diambil dari sudut eye-level, membuat subjek (anak perempuan) terlihat sangat dekat dan intim dengan penonton. Jaraknya juga cukup deket, sehingga ekspresi wajah dan detail pakaian terlihat jelas."
+        },
+        {
+          "label": "CAHAYA",
+          "text": "Cahaya di foto ini sepertinya berasal dari sumber alami (matahari), dengan arah cahaya yang agak dari samping kiri. Cahayanya sendiri terlihat lembut dan tidak terlalu kontras, menciptakan efek yang dramatis pada wajah subjek."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna dominan di foto ini adalah warna cokelat (monokromatik), dengan kesan yang sangat kuat pada gaya film/analog. Warna ini menciptakan suasana yang hangat dan nostalgis, seperti foto jadul."
+        },
+        {
+          "label": "KOMPOSISI",
+          "text": "Komposisi foto ini menggunakan rule of thirds, dengan subjek ditempatkan di tengah frame. Namun, ada juga kesan simetri pada wajah subjek dan bangunan di belakangnya, menciptakan keseimbangan visual yang menarik."
+        },
+        {
+          "label": "MOMEN",
+          "text": "Momen di foto ini terlihat spontan, namun dengan ekspresi wajah yang misterius, membuat penonton penasaran. Kesan sinematik juga terlihat pada penggunaan cahaya dan komposisi yang dramatis."
+        }
+      ],
+      "pelajaran": "Pelajaran yang bisa diambil dari foto ini adalah pentingnya penggunaan cahaya yang tepat untuk menciptakan mood dan suasana yang diinginkan.",
+      "palette": [
+        "#6E532E",
+        "#DAC69C",
+        "#4D3011",
+        "#2C1402"
+      ],
+      "suhu": "hangat",
+      "ai": "Groq",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:44:07.503700+07:00"
+    },
+    {
+      "id": "20260702-28",
+      "title": "ARE YOU READY? II",
+      "source": "Flickr",
+      "author": "",
+      "link": "https://www.flickr.com/photos/min_dundi/55369230585/",
+      "image": "https://live.staticflickr.com/65535/55369230585_d7ffa95749_b.jpg",
       "kategori": "photography",
       "tingkat": "mudah",
       "teori": "-",
@@ -1155,7 +1111,7 @@
         },
         {
           "label": "WARNA",
-          "text": "Warna utama hijau (kesan: segar, alami, menenangkan). Dipadukan hijau dengan kuning — kontras sedang yang memberi variasi tanpa saling tabrakan. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+          "text": "Warna utama hitam (kesan: dramatis, premium, serius). Keduanya warna netral (hitam & hitam) — masuk satu palet monokrom, jadi kesannya minimalis, elegan, dan tidak ramai. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
         },
         {
           "label": "KOMPOSISI",
@@ -1168,15 +1124,59 @@
       ],
       "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
       "palette": [
-        "#0C140C",
-        "#5D5229",
-        "#5C5E53",
-        "#112C47"
+        "#040404",
+        "#1D1D1D",
+        "#595959",
+        "#939393"
       ],
       "suhu": "netral",
       "ai": "template",
-      "date": "2026-07-01",
-      "added_at": "2026-07-01T19:22:50.336649+07:00"
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:44:08.852157+07:00"
+    },
+    {
+      "id": "20260702-29",
+      "title": "Artificial Lives",
+      "source": "Flickr",
+      "author": "",
+      "link": "https://www.flickr.com/photos/fastchris/55364913309/",
+      "image": "https://live.staticflickr.com/65535/55364913309_d760866978_b.jpg",
+      "kategori": "photography",
+      "tingkat": "mudah",
+      "teori": "-",
+      "breakdown": [
+        {
+          "label": "ANGLE",
+          "text": "Angle nentuin gimana kita 'memandang' subjek. Low angle (kamera di bawah, ndongak) bikin subjek keliatan gagah, berkuasa, dominan. Eye-level (sejajar mata) kesannya akrab, jujur, setara. High angle (dari atas, nunduk) bikin subjek keliatan kecil, rentan, atau ngasih konteks lingkungan. Makin deket jarak kameranya, makin intim & berasa emosinya."
+        },
+        {
+          "label": "CAHAYA",
+          "text": "Dari warnanya yang condong HANGAT, cahayanya kemungkinan dari matahari sore/golden hour atau lampu kekuningan — kesannya cozy & intim. Cahaya itu 'nyawa' foto. Cahaya dari samping bikin tekstur & dimensi keluar, dari depan rata bikin bersih tapi flat, dari belakang (backlight) bikin siluet atau rim light yang dramatis. Golden hour (sore) hangat & lembut; siang terik bikin bayangan keras & kontras tinggi. Lihat arah bayangan buat tau dari mana cahayanya datang."
+        },
+        {
+          "label": "WARNA",
+          "text": "Warna utama oranye (kesan: hangat, ramah, antusias). Warna sekundernya merah, masih satu keluarga dengan oranye (analogus/senada) — transisinya halus, enak dipandang, terasa harmonis. Soalnya warna itu yang pertama nendang emosi orang yang lihat."
+        },
+        {
+          "label": "KOMPOSISI",
+          "text": "Lihat ke mana mata kamu jatuh pertama kali — itu titik fokusnya. Karya kuat biasanya naruh subjek di garis sepertiga (rule of thirds), bukan pas tengah, terus pakai garis atau ruang kosong buat ngarahin pandangan kamu."
+        },
+        {
+          "label": "MOMEN",
+          "text": "Foto yang 'kena' biasanya nangkep momen yang jujur — orang lagi ketawa lepas, ngelamun, atau adegan sehari-hari yang biasa aja tapi pas dibekukan jadi puitis. Tanya: apa yang lagi terjadi di sini, dan kenapa fotografer milih MOMEN ini? Momen candid (gak dibikin-bikin) sering kerasa lebih hidup & relatable daripada pose kaku. Kesan film/grain nambahin rasa nostalgia & nyata."
+        }
+      ],
+      "pelajaran": "Mulai dari satu titik fokus yang jelas, sisanya bikin rapi & senada.",
+      "palette": [
+        "#B0998C",
+        "#201510",
+        "#705B4E",
+        "#8B7466"
+      ],
+      "suhu": "hangat",
+      "ai": "template",
+      "date": "2026-07-02",
+      "added_at": "2026-07-02T18:44:10.576481+07:00"
     }
   ]
 }
